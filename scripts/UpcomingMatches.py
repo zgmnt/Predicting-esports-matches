@@ -28,22 +28,39 @@ for i in range(len(matchFrame)):
 matchedDetailsURLs.pop(0)
 pageMatch = requests.get(matchedDetailsURLs[0])
 soupMatch = BeautifulSoup(page.content, 'html.parser')
-teamNames = soupMatch.find_all(class_="matchTeamName")
 
+# CHANGE FUNCTION NAME
+def find_all_in_soup(ListOfValues, soup):
+    matches = []
+    teamsRaw = []
+    teams = []
+    matches = soup.find_all(class_="upcomingMatch")
+    for match in matches:
+        teamsRaw.append(match.find(class_="matchTeam team1"))
+        teamsRaw.append(match.find(class_="matchTeam team2"))
+
+    for teamRaw in teamsRaw:
+        teamRaw.find(class_="")
+
+
+
+teamNames = soupMatch.find_all(class_="matchTeamName")
 teamsInMatchTable = []
 teamsInMatchTuples = []
+
+find_all_in_soup(["matchTeam team1"], soup)
 
 for i in range(len(teamNames)):
     indexBegin = str(teamNames[i]).find('">')
     indexEnd = str(teamNames[i]).find("</div>")
     teamsInMatchTable.append(str(teamNames[i])[indexBegin + 2: indexEnd])
 
-for i in range(len(teamNames)//2):
+for i in range(0, len(teamNames), 2):
     teamsInMatchTuples.append(tuple((teamsInMatchTable[i], teamsInMatchTable[i+1])))
 
-print(teamsInMatchTuples)
-
+"""
 with open("..//data//UpcomingMatches.csv", "w") as file:
     file.write("Team A,Team B\n")
     for tuple_ in teamsInMatchTuples:
         file.write("%s,%s\n" % (tuple_[0], tuple_[1]))
+"""
