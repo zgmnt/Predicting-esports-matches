@@ -1,49 +1,32 @@
-import csv
 from bs4 import BeautifulSoup
 import requests
 
-url = "https://www.hltv.org/matches"
 
+url = "https://www.hltv.org/matches"
 page = requests.get(url)
 soup = BeautifulSoup(page.content, 'html.parser')
-matchesWrapper = soup.find_all(class_="upcomingMatchesWrapper")
-matchesDaysUpcoming = soup.find_all(class_="upcomingMatchesSection")
-matchDayHeadline = soup.find_all(class_="matchDayHeadline")
-matchFrame = soup.find_all(class_="match a-reset")
 
-upcomingMatchesDays = []
+upcomingMatches = soup.find_all(class_="matchTeam")
+liveMatches = soup.find_all(class_="liveMatch-container")
 
-for i in range(len(matchDayHeadline)):
-    stringLine = str(matchDayHeadline[i])
-    indexDateBegin = stringLine.find(">")
-    indexDateEnd = stringLine.find("</")
-    upcomingMatchesDays.append(stringLine[indexDateBegin + 1: indexDateEnd])
+teamNames = []
+team1, team2 = "", ""
+for i in range(len(liveMatches)+2, len(upcomingMatches)):
+    indexBegin = str(upcomingMatches[i]).find("text-ellipsis")
+    indexEnd = str(upcomingMatches[i]).find("</div>")
+    team = str(upcomingMatches[i])[indexBegin + len('text-ellipsis">'):].replace("</div>", "").replace("\n", "")
 
-matchedDetailsURLs = []
-for i in range(len(matchFrame)):
-    indexBegin = str(matchFrame[i]).find("href=")
-    indexEnd = str(matchFrame[i]).find('">')
-    matchedDetailsURLs.append("https://www.hltv.org/" + str(matchFrame[i])[indexBegin + 6 :indexEnd])
+    # team 2
+    if(i%2):
+        team2 = team
+    else:
+        team1 = team
 
-matchedDetailsURLs.pop(0)
-pageMatch = requests.get(matchedDetailsURLs[0])
-soupMatch = BeautifulSoup(page.content, 'html.parser')
-teamNames = soupMatch.find_all(class_="matchTeamName")
+    if (i % 2):
+        teamNames.append(tuple((team1, team2)))
 
-teamsInMatchTable = []
-teamsInMatchTuples = []
-
-for i in range(len(teamNames)):
-    indexBegin = str(teamNames[i]).find('">')
-    indexEnd = str(teamNames[i]).find("</div>")
-    teamsInMatchTable.append(str(teamNames[i])[indexBegin + 2: indexEnd])
-
-for i in range(len(teamNames)//2):
-    teamsInMatchTuples.append(tuple((teamsInMatchTable[i], teamsInMatchTable[i+1])))
-
-print(teamsInMatchTuples)
 
 with open("..//data//UpcomingMatches.csv", "w") as file:
     file.write("Team A,Team B\n")
-    for tuple_ in teamsInMatchTuples:
+    for tuple_ in teamNames:
         file.write("%s,%s\n" % (tuple_[0], tuple_[1]))

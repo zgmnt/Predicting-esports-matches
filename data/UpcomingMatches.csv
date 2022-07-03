@@ -1,28 +1,30 @@
-Team A,Team B
-Redragon,Meta BR
-Meta BR,Nigma Galaxy
-Nigma Galaxy,MIBR fe
-MIBR fe,Outsiders
-Outsiders,Rare Atom
-Rare Atom,B8
-B8,BLUEJAYS
-BLUEJAYS,FURIA fe
-FURIA fe,NAVI Javelins
-NAVI Javelins,Movistar Riders
-Movistar Riders,Sprout
-Sprout,Sangal
-Sangal,EC Kyiv
-EC Kyiv,ARCTIC
-ARCTIC,Stars Horizon
-Stars Horizon,ECLOT
-ECLOT,UNGENTIUM
-UNGENTIUM,ODDIK
-ODDIK,EC Kyiv
-EC Kyiv,Apeks
-Apeks,BIG Academy
-BIG Academy,AGO
-AGO,ECLOT
-ECLOT,ONYX
-ONYX,Spirit
-Spirit,Complexity
-Complexity,MOUZ
+Team A,Team B, Lan
+,NAVI Javelins<div class="matchTeamScore"><span class="currentMapScore" data-livescore-current-map-score="" data-livescore-team="11675"></span><span class="mapScore"> (<span data-livescore-maps-won-for="" data-livescore-team="11675"></span>)</span>, False
+Sangal,EC Kyiv, True
+Nigma Galaxy,FURIA fe/NAVI Javelins winner, True
+Outsiders,Movistar Riders/Sprout winner, False
+ARCTIC,Stars Horizon, False
+ECLOT,UNGENTIUM, False
+ODDIK,Meta BR, False
+EC Kyiv,Apeks, False
+BIG Academy,AGO, False
+ECLOT,ONYX, True
+Spirit,Complexity, True
+MOUZ,paiN, True
+Heroic,Sprout, True
+Outsiders,Imperial, True
+BIG,ORDER, True
+00NATION,Astralis, True
+MIBR,Movistar Riders, True
+TYLOO,Vitality, True
+Luxe,Northern Forces, True
+Davenport University,ONET4P, True
+G2,TBD, True
+NIP,TBD, True
+Natus Vincere,TBD, True
+ENCE,TBD, False
+Cloud9,TBD, True
+Liquid,TBD, True
+BLUEJAYS,forZe, True
+FaZe,TBD, True
+FURIA,TBD, True
