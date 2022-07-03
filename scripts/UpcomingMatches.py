@@ -26,7 +26,16 @@ for i in range(len(liveMatches)+2, len(upcomingMatches)):
         teamNames.append(tuple((team1, team2)))
 
 
+isLanSoup = soup.find_all(class_ = "upcomingMatch")
+isLanStr = []
+for e in isLanSoup:
+    indBegin = str(e).find("lan=")
+    indEnd = str(e).find("stars")
+    isLanStr.append(str(e)[indBegin + len("lan=")+1:indEnd-2])
+
+isLan = [ele == "true" for ele in isLanStr]
+
 with open("..//data//UpcomingMatches.csv", "w") as file:
-    file.write("Team A,Team B\n")
-    for tuple_ in teamNames:
-        file.write("%s,%s\n" % (tuple_[0], tuple_[1]))
+    file.write("Team A,Team B, Lan\n")
+    for i in range(len(teamNames)):
+        file.write("%s,%s, %s\n" % (teamNames[i][0], teamNames[i][1], isLan[i]))

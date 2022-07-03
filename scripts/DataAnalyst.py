@@ -1,5 +1,5 @@
 import pandas as pd
 
-data = pd.read_csv("..//data//MatchesResults.csv", sep=",")
+data = pd.read_csv("..//data//UpcomingMatches.csv", sep=",")
 
 print(data)
