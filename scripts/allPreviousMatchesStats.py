@@ -10,7 +10,7 @@ import re
 # map column
 # map winrate team a and team b column
 
-pages = 3 # some links dont work cause data gaps
+pages = 1 # some links dont work cause data gaps
 
 
 def url_to_soup(url_):
@@ -65,7 +65,7 @@ def get_teams():
                 teamA_.append(teamnameFixed)
     return teamA_, teamB_
 
-teamA, teamB = get_teams()
+#teamA, teamB = get_teams()
 
 
 def get_maps():
@@ -93,47 +93,54 @@ def get_maps():
     return map1_, map2_, map3_
 
 
-map1, map2, map3 = get_maps()
+#map1, map2, map3 = get_maps()
 
 
 def get_maps_status():
     teamAMap1Win = []
     teamAMap2Win = []
     teamAMap3Win = []
-    teamA = 0
-    teamB = 0
-    matches = 2
     all_maps_scores = []
     teamAMapWinAllMaps = []
-    for i in range(matches):  # change to all matches
+    for i in range(len(matchPagesLinks)): # change to all matches
         soup = url_to_soup(matchPagesLinks[i])
-        mapsStatusRaw = soup.find_all(class_="results-team-score")  # 6
+        mapsStatusRaw = soup.find_all(class_="results-team-score") #6
         for j in range(len(mapsStatusRaw)):
             indexBegin = str(mapsStatusRaw[j]).find('team-score')
             indexEnd = str(mapsStatusRaw[j]).find('</div>')
-            mapStatus = str(mapsStatusRaw[j])[indexBegin + 12: indexEnd]  # 12
-            all_maps_scores.append(mapStatus)
+            mapStatus = str(mapsStatusRaw[j])[indexBegin+12: indexEnd] # 12
+            all_maps_scores.append( mapStatus )
 
         if (i % 2):  # error 1015 handle
             time.sleep(0.25)
 
-    for i in range(0, len(all_maps_scores), 2):
-        if all_maps_scores[i].isdigit() and all_maps_scores[i + 1].isdigit():
+    for i in range(0,len(all_maps_scores),2 ):
+        if all_maps_scores[i].isdigit() and all_maps_scores[i+1].isdigit():
             all_maps_scores[i] = int(all_maps_scores[i])
-            all_maps_scores[i + 1] = int(all_maps_scores[i + 1])
-            print(all_maps_scores[i], all_maps_scores[i + 1], all_maps_scores[i] > all_maps_scores[i + 1])
-
+            all_maps_scores[i+1] = int(all_maps_scores[i+1])
+            teamAMapWinAllMaps.append(all_maps_scores[i] > all_maps_scores[i+1])
         else:
-            print(all_maps_scores[i], all_maps_scores[i + 1], False)
+            teamAMapWinAllMaps.append(False)
+
+    for i in range(0,len(teamAMapWinAllMaps), 3):
+        teamAMap1Win.append(teamAMapWinAllMaps[i])
+        teamAMap2Win.append(teamAMapWinAllMaps[i + 1])
+        teamAMap3Win.append(teamAMapWinAllMaps[i + 2])
 
     return teamAMap1Win, teamAMap2Win, teamAMap3Win
 
 
+columnTeamAmap1Win,columnTeamAmap2Win, columnTeamAmap3Win =  get_maps_status()
+
 def all_previous_matches_to_csv(path_,filename_):
     with open(("%s%s%s" % (path_, filename_, ".csv")), "w", newline="") as file:
-        file.write("%s,%s,%s,%s,%s%s" % ("Team A", "Team B", "map1", "map2", "map3", "\n"))
+        file.write("%s,%s,%s,%s,%s,%s,%s,%s%s"
+                   % ("Team A", "Team B", "map1", "map2", "map3"
+                      ,"Team-A-map1-Status","Team-A-map2-Status","Team-A-map3-Status", "\n"))
         for i in range(len(map2)): # handle blank map2 and map3
-            file.write("%s,%s,%s,%s,%s\n" % (teamA[i], teamB[i], map1[i], map2[i], map3[i]))
+            file.write("%s,%s,%s,%s,%s,%s,%s,%s\n"
+                       % (teamA[i], teamB[i], map1[i], map2[i], map3[i]
+                          ,columnTeamAmap1Win[i],columnTeamAmap2Win[i],columnTeamAmap3Win[i] ))
 
 all_previous_matches_to_csv("..//data//results//", "allPreviousMatchesStats")
 
