@@ -11,7 +11,8 @@ import re
 # map column
 # map winrate team a and team b column
 
-pages = 2
+pages = 1
+
 
 def url_to_soup(url_):
     page = requests.get(url_)
@@ -35,6 +36,7 @@ def get_match_pages_results_links(url_,amount_pages):
         offset += 100
     return resultsLinks_
 
+
 matchPagesLinks = get_match_pages_results_links("https://www.hltv.org/results", pages)
 
 
@@ -50,7 +52,7 @@ def get_teams():
         soup = url_to_soup(matchPagesLinks[i])
         teamsNameRaw = soup.find_all(class_="teamName")
         if(i%2): # error 1015 handle
-            time.sleep(1)
+            time.sleep(0.5)
         for j in range(2):
             if len(list(teamsNameRaw)) != 0:
                 teamName = list(teamsNameRaw)[j]
@@ -63,7 +65,7 @@ def get_teams():
                 teamA_.append(teamnameFixed)
     return teamA_, teamB_
 
-#teamA, teamB = get_teams()
+teamA, teamB = get_teams()
 
 
 def get_maps():
@@ -75,23 +77,29 @@ def get_maps():
         soup = url_to_soup(matchPagesLinks[i])
         mapsRaw = soup.find_all(class_="mapname")
         if (i % 2):  # error 1015 handle
-            time.sleep(1)
+            time.sleep(0.5)
         for j in range(len(mapsRaw)):
             indexBegin = str(mapsRaw[j]).find('mapname')
             indexEnd = str(mapsRaw[j]).find('</div>')
-            # 3.10 match
-            if
+            match j:
+                case 0:
+                    map1_.append(str(mapsRaw[j])[indexBegin + 9:indexEnd])
+                case 1:
+                    map2_.append(str(mapsRaw[j])[indexBegin + 9:indexEnd])
+                case 2:
+                    map3_.append(str(mapsRaw[j])[indexBegin + 9:indexEnd])
+
+    return map1_, map2_, map3_
 
 
-            map1_.append(str(mapsRaw[j])[indexBegin + 9:indexEnd])
+map1, map2, map3 = get_maps()
 
 
 def all_previous_matches_to_csv(path_,filename_):
     with open(("%s%s%s" % (path_, filename_, ".csv")), "w", newline="") as file:
-        file.write("%s,%s%s" % ("Team A", "Team B", "\n"))
-        for i in range(len(teamA)):
-            file.write("%s,%s\n" % (teamA[i], teamB[i]))
+        file.write("%s,%s,%s,%s,%s%s" % ("Team A", "Team B", "map1", "map2", "map3", "\n"))
+        for i in range(len(map2)): # handle blank map2 and map3
+            file.write("%s,%s,%s,%s,%s\n" % (teamA[i], teamB[i], map1[i], map2[i], map3[i]))
 
-get_maps()
-#all_previous_matches_to_csv("..//data//results//", "allPreviousMatchesStats")
+all_previous_matches_to_csv("..//data//results//", "allPreviousMatchesStats")
 
