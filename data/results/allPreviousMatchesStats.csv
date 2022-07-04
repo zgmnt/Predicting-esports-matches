@@ -1,204 +1,92 @@
-Team A,Team B
-Outsiders,Movistar Riders
-Movistar Riders,Sprout
-Outsiders,Rare Atom
-ODDIK,Meta BR
-Outsiders,Movistar Riders
-ARCTIC,Stars Horizon
-Nigma Galaxy,FURIA fe
-Sangal,EC Kyiv
-Movistar Riders,Sprout
-FURIA fe,NAVI Javelins
-B8,BLUEJAYS
-Outsiders,Rare Atom
-Nigma Galaxy,MIBR fe
-Redragon,Meta BR
-HEET,Bad News Eagles
-ODDIK,Rehl
-CLG Red,MIBR fe
-Sprout,00NATION
-EC Kyiv,BLUEJAYS
-Bad News Eagles,SINNERS
-BIG EQUIPA,NAVI Javelins
-MIBR,Rare Atom
-ex-MAD Lions,HEET
-Sangal,B8
-MIBR fe,GODSENT fe
-00NATION,FURIA
-The Union,Stars Horizon
-Rare Atom,HUMMER
-Mindfreak,NAVI Javelins
-BIG Academy,Cryptova
-Iron Branch,B8
-ARCTIC,B4
-AGO,PACT
-MASONIC,Sangal
-Complexity,SINNERS
-Outsiders,Sprout
-FURIA fe,CLG Red
-Nigma Galaxy,BIG EQUIPA
-MIBR,Movistar Riders
-UNGENTIUM,FLET
-BLUEJAYS,Tricked
-FURIA,Sprout
-Eternal Fire,ex-MAD Lions
-GODSENT fe,CLG Red
-00NATION,Outsiders
-FURIA fe,MIBR fe
-Into the Breach,EC Kyiv
-NAVI Javelins,BIG EQUIPA
-HUMMER,Movistar Riders
-MIBR,Rare Atom
-Nigma Galaxy,Mindfreak
-Luxe,Detonate
-Victorum,Northern Forces
-BIG,FaZe
-HEET,MASONIC
-forZe,ECLOT
-EC Kyiv,BLUEJAYS
-Apeks,SKADE
-Bad News Eagles,Finest
-OneTap,KTRL
-fnatic,ex-MAD Lions
-FaZe,Astralis
-Nexus,KTRL
-Nemiga,SKADE
-Finest,Enterprise
-Bad News Eagles,ECSTATIC
-BIG,Cloud9
-UNGENTIUM,EC Kyiv
-OneTap,KTRL
-Apeks,ex-MAD Lions
-PACT,EC Kyiv
-MASONIC,UNGENTIUM
-Philadelphia Liberty,Northern Forces
-Detonate,Snakes Den
-allStars,Nexus
-Into the Breach,UNGENTIUM
-SKADE,MASONIC
-forZe,Astralis
-Nexus,KTRL
-ECSTATIC,ex-MAD Lions
-BIG Academy,FLET
-VP.Prodigy,Apeks
-ENCE,FaZe
-OneTap,allStars
-fnatic,Bad News Eagles
-ECSTATIC,SINNERS
-EC Kyiv,UNGENTIUM
-PACT,MASONIC
-Luxe,Davenport University
-ONET4P,Victorum
-BLUEJAYS,BIG Academy
-Cloud9,9z
-eSuba,ECLOT
-Bad News Eagles,forZe
-Into the Breach,EC Kyiv
-SKADE,AVANGAR
-NAVI Junior,ONYX
-UNGENTIUM,B8
-BIG,Eternal Fire
-Illuminar,Sangal
-ex-MAD Lions,MOUZ NXT
-Rare Atom,IHC
-Sangal,HONORIS
-paiN,ATK
-Rehl,Los Grandes
-LGG Snakes Den,Aiming is Difficult
-CLG Red,Sacrifice
-Stanley's Harem,Stuck in Iceland
-ex-Black Dragons fe,Quem Sao Elas
-MASONIC,FLET
-1PIN,Apeks
-Stuck in Iceland,Aiming is Difficult
-9z,FURIA
-Daotsu,B4
-MOUZ,Eternal Fire
-KJlACCHblE,OG Academy
-Stars Horizon,MIBR Academy
-ONYX,BEE
-Nemiga,ECLOT
-Falcons,1WIN
-LGG Snakes Den,Stanley's Harem
-BIG Academy,MOUZ NXT
-k1ck,OG Academy
-MostValuablePlayers,Copenhagen Flames fe
-Illuminar,KJlACCHblE
-FaZe,OG
-Astralis,Complexity
-MOUZ NXT,FURIA Academy
-SINNERS,Enterprise
-IHC,ARAVT
-Illuminar,Into the Breach
-HONORIS,Into the Breach
-Sangal,Illuminar
-ARAVT,NKT
-ATK,Gaimin Gladiators
-MIBR Academy,SWS
-Gaimin Gladiators,EG.CD
-Daotsu,Boca Juniors
-Eternal Fire,Imperial
-fnatic,MOUZ NXT
-Stone,B4
-Los Grandes,Meta BR
-1WIN,Movistar Riders
-Outsiders,FURIA
-Stars Horizon,The Union
-Rehl,Redragon
-BIG Academy,FURIA Academy
-forZe,Enterprise
-Anonymo,B8
-fnatic Rising,MOUZ NXT
-Entropiq,OG
-SAW,Movistar Riders
-IHC,Rare Atom
-ARAVT,CatEvil
-NKT,OS
-Nexus,B8
-Philadelphia Liberty,X13
-paiN,ATK
-Gaimin Gladiators,Mythic
-EG.CD,BHOP
-B4,Isurus
-Players,Stone
-Cryptova,Entropiq Prague
-Honved,BEE
-Complexity,Movistar Riders
-SAW,Sprout
-Daotsu,Los Grandes
-Meta BR,Boca Juniors
-Entropiq,Movistar Riders
-1WIN,Falcons
-ENCE,MOUZ
-Rehl,MIBR Academy
-Anonymo,Tricked
-SWS,Redragon
-forZe,9z
-Enterprise,Finest
-ARCTIC,Stars Horizon
-The Union,UNO MILLE
-MOUZ NXT,FURIA Academy
-AGO,1DayHeroes
-UNGENTIUM,GTZ Bulls
-BIG,FaZe
-Tricked,B8
-BIG Academy,fnatic Rising
-IHC,NKT
-Cloud9,Astralis
-forZe,SINNERS
-CatEvil,NEXGA
-ARAVT,Rare Atom
-OS,Born in Mongolia
-Nexus,Anonymo
-ATK,Gaimin Gladiators
-Snakes Den,Counter Nature
-Mythic,Brazen
-BHOP,Strife
-Northern Forces,Take Flyte
-Vexo Purple,Detonate
-paiN,EG.CD
-B4,Boca Juniors
-Redragon,Isurus
-Players,Meta BR
-Los Grandes,Stone
-The Union,SWS
+Team A,Team B,map1,map2,map3
+Outsiders,Movistar Riders,Inferno,Overpass,Vertigo
+Movistar Riders,Sprout,Inferno,Nuke,Ancient
+Outsiders,Rare Atom,Inferno,Vertigo,Mirage
+ODDIK,Meta BR,Nuke,Inferno,Mirage
+Outsiders,Movistar Riders,Inferno,Overpass,Vertigo
+ARCTIC,Stars Horizon,Ancient,Mirage,Dust2
+Nigma Galaxy,FURIA fe,Dust2,Vertigo,Ancient
+Sangal,EC Kyiv,Inferno,Overpass,Mirage
+Movistar Riders,Sprout,Inferno,Nuke,Ancient
+FURIA fe,NAVI Javelins,Vertigo,Mirage,Nuke
+B8,BLUEJAYS,Vertigo,Inferno,Overpass
+Outsiders,Rare Atom,Inferno,Vertigo,Mirage
+Nigma Galaxy,MIBR fe,Dust2,Vertigo,Inferno
+Redragon,Meta BR,Inferno,Dust2,Nuke
+HEET,Bad News Eagles,Nuke,Inferno,Ancient
+ODDIK,Rehl,Dust2,Ancient,Mirage
+CLG Red,MIBR fe,Vertigo,Inferno,Overpass
+Sprout,00NATION,Dust2,Overpass,Vertigo
+EC Kyiv,BLUEJAYS,Dust2,Mirage,Inferno
+Bad News Eagles,SINNERS,Vertigo,Mirage,Ancient
+BIG EQUIPA,NAVI Javelins,Nuke,Inferno,Dust2
+MIBR,Rare Atom,Inferno,Overpass,Mirage
+ex-MAD Lions,HEET,Dust2,Nuke,Ancient
+Sangal,B8,Ancient,Vertigo,Dust2
+MIBR fe,GODSENT fe,Dust2,Nuke,Overpass
+00NATION,FURIA,Ancient,Vertigo,Inferno
+The Union,Stars Horizon,Ancient,Dust2,Vertigo
+Rare Atom,HUMMER,Mirage,Nuke,Inferno
+Mindfreak,NAVI Javelins,Inferno,Vertigo,Mirage
+BIG Academy,Cryptova,Overpass,Dust2,Mirage
+Iron Branch,B8,Nuke,Inferno,Vertigo
+ARCTIC,B4,Dust2,Ancient,Inferno
+AGO,PACT,Ancient,Inferno,Vertigo
+MASONIC,Sangal,Inferno,Overpass,Dust2
+Complexity,SINNERS,Vertigo,Inferno,Overpass
+Outsiders,Sprout,Vertigo,Mirage,Nuke
+FURIA fe,CLG Red,Mirage,Overpass,Vertigo
+Nigma Galaxy,BIG EQUIPA,Overpass,Overpass,Nuke
+MIBR,Movistar Riders,Nuke,Overpass,Inferno
+UNGENTIUM,FLET,Ancient,Overpass,Vertigo
+BLUEJAYS,Tricked,Mirage,Mirage,Overpass
+FURIA,Sprout,Inferno,Nuke,Mirage
+Eternal Fire,ex-MAD Lions,Mirage,Ancient,Nuke
+GODSENT fe,CLG Red,Mirage,Dust2,Mirage
+00NATION,Outsiders,Inferno,Inferno,Dust2
+FURIA fe,MIBR fe,Mirage,Overpass,Inferno
+Into the Breach,EC Kyiv,Vertigo,Mirage,Inferno
+NAVI Javelins,BIG EQUIPA,Dust2,Vertigo,Mirage
+HUMMER,Movistar Riders,Nuke,Nuke,Ancient
+MIBR,Rare Atom,Overpass,Mirage,Dust2
+Nigma Galaxy,Mindfreak,Inferno,Ancient,Nuke
+Luxe,Detonate,Mirage,Overpass,Mirage
+Victorum,Northern Forces,Nuke,Dust2,Mirage
+BIG,FaZe,Dust2,Dust2,Ancient
+HEET,MASONIC,Overpass,Inferno,Vertigo
+forZe,ECLOT,Inferno,Dust2,Ancient
+EC Kyiv,BLUEJAYS,Mirage,Inferno,Mirage
+Apeks,SKADE,Mirage,Dust2,Nuke
+Bad News Eagles,Finest,Vertigo,Dust2,Overpass
+OneTap,KTRL,Nuke,Dust2,Ancient
+fnatic,ex-MAD Lions,Mirage,Nuke,Vertigo
+FaZe,Astralis,Overpass,Dust2,Inferno
+Nexus,KTRL,Inferno,Nuke,Dust2
+Nemiga,SKADE,Inferno,Mirage,Nuke
+Finest,Enterprise,Inferno,Inferno,Dust2
+Bad News Eagles,ECSTATIC,Vertigo,Nuke,Overpass
+BIG,Cloud9,Dust2,Inferno,Nuke
+UNGENTIUM,EC Kyiv,Vertigo,Dust2,Nuke
+OneTap,KTRL,Vertigo,Nuke,Mirage
+Apeks,ex-MAD Lions,Mirage,Ancient,Inferno
+PACT,EC Kyiv,Ancient,Overpass,Mirage
+MASONIC,UNGENTIUM,Vertigo,Ancient,Dust2
+Philadelphia Liberty,Northern Forces,Inferno,Ancient,Mirage
+Detonate,Snakes Den,Mirage,Vertigo,Ancient
+allStars,Nexus,Default,Inferno,Mirage
+Into the Breach,UNGENTIUM,Vertigo,Ancient,Dust2
+SKADE,MASONIC,Nuke,Overpass,Nuke
+forZe,Astralis,Mirage,Inferno,Nuke
+Nexus,KTRL,Mirage,Dust2,Vertigo
+ECSTATIC,ex-MAD Lions,Ancient,Dust2,Overpass
+BIG Academy,FLET,Overpass,Vertigo,Mirage
+VP.Prodigy,Apeks,Dust2,Mirage,Inferno
+ENCE,FaZe,Ancient,Vertigo,Inferno
+OneTap,allStars,Overpass,Mirage,Dust2
+fnatic,Bad News Eagles,Nuke,Mirage,Vertigo
+ECSTATIC,SINNERS,Overpass,Dust2,Ancient
+EC Kyiv,UNGENTIUM,Vertigo,Dust2,Nuke
+PACT,MASONIC,Vertigo,Overpass,Ancient
+Luxe,Davenport University,Vertigo,Mirage,Inferno
+ONET4P,Victorum,Overpass,Ancient,Mirage
+BLUEJAYS,BIG Academy,Mirage,Vertigo,Inferno
