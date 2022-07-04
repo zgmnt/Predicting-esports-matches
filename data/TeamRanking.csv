@@ -1,31 +1,31 @@
-name,position
-FaZe,1
-Natus Vincere,2
-ENCE,3
-Cloud9,4
-Vitality,5
-G2,6
-FURIA,7
-NIP,8
-Heroic,9
-Spirit,10
-BIG,11
-Astralis,12
-OG,13
-Liquid,14
-Outsiders,15
-Imperial,16
-MOUZ,17
-Movistar Riders,18
-forZe,19
-MIBR,20
-Bad News Eagles,21
-Eternal Fire,22
-Finest,23
-Entropiq,24
-Endpoint,25
-paiN,26
-Falcons,27
-HEET,28
-ECSTATIC,29
-SKADE,30
+name,position,teamID
+FaZe,1,6667
+Natus Vincere,2,4608
+ENCE,3,4869
+Cloud9,4,5752
+Vitality,5,9565
+G2,6,5995
+FURIA,7,8297
+NIP,8,4411
+Heroic,9,7175
+Spirit,10,7020
+BIG,11,7532
+Astralis,12,6665
+OG,13,10503
+Liquid,14,5973
+Outsiders,15,11595
+Imperial,16,9455
+MOUZ,17,4494
+Movistar Riders,18,7718
+forZe,19,8135
+MIBR,20,9215
+Bad News Eagles,21,11518
+Eternal Fire,22,11251
+Finest,23,10276
+Entropiq,24,10831
+Endpoint,25,7234
+paiN,26,4773
+Falcons,27,11283
+HEET,28,11501
+ECSTATIC,29,11419
+SKADE,30,10386
