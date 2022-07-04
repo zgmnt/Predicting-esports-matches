@@ -81,4 +81,4 @@ for stat_link, team_name in zip(team_stats_links, team_names):
 
     teamIDS = get_team_ids()
     detailed_score()
-    teams_stats_to_csv("..//data//results//", team_name) # proper name
+    teams_stats_to_csv("..//data//results//teamtwiseResults//", team_name) # proper name

@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import csv
 import time
+import re
 
 # TO DO
 # check if two team in top 30
@@ -48,7 +49,6 @@ def get_teams():
     for i in range(len(matchPagesLinks)):
         soup = url_to_soup(matchPagesLinks[i])
         teamsNameRaw = soup.find_all(class_="teamName")
-        print(teamsNameRaw)
         if(i%2): # error 1015 handle
             time.sleep(1)
         for j in range(2):
@@ -63,7 +63,27 @@ def get_teams():
                 teamA_.append(teamnameFixed)
     return teamA_, teamB_
 
-teamA, teamB = get_teams()
+#teamA, teamB = get_teams()
+
+
+def get_maps():
+    mapsRaw = []
+    map1_ = []
+    map2_ = []
+    map3_ = []
+    for i in range(len(matchPagesLinks)):
+        soup = url_to_soup(matchPagesLinks[i])
+        mapsRaw = soup.find_all(class_="mapname")
+        if (i % 2):  # error 1015 handle
+            time.sleep(1)
+        for j in range(len(mapsRaw)):
+            indexBegin = str(mapsRaw[j]).find('mapname')
+            indexEnd = str(mapsRaw[j]).find('</div>')
+            # 3.10 match
+            if
+
+
+            map1_.append(str(mapsRaw[j])[indexBegin + 9:indexEnd])
 
 
 def all_previous_matches_to_csv(path_,filename_):
@@ -72,6 +92,6 @@ def all_previous_matches_to_csv(path_,filename_):
         for i in range(len(teamA)):
             file.write("%s,%s\n" % (teamA[i], teamB[i]))
 
-
-all_previous_matches_to_csv("..//data//results//", "allPreviousMatchesStats")
+get_maps()
+#all_previous_matches_to_csv("..//data//results//", "allPreviousMatchesStats")
 

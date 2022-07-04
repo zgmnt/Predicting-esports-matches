@@ -46,6 +46,6 @@ for i in range(len(rankingTableTeams)):
 
 
 with open("..//data//TeamRanking.csv", "w") as file:
-    file.write("name,position, teamID\n")
+    file.write("name,position,teamID\n")
     for key, team_id in zip(positionsAssociatedNames.keys(), team_ids):
-        file.write("%s,%s, %s\n" % (key, positionsAssociatedNames[key], team_id))
+        file.write("%s,%s,%s\n" % (key, positionsAssociatedNames[key], team_id))
