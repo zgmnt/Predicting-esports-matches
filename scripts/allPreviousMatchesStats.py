@@ -96,6 +96,39 @@ def get_maps():
 map1, map2, map3 = get_maps()
 
 
+def get_maps_status():
+    teamAMap1Win = []
+    teamAMap2Win = []
+    teamAMap3Win = []
+    teamA = 0
+    teamB = 0
+    matches = 2
+    all_maps_scores = []
+    teamAMapWinAllMaps = []
+    for i in range(matches):  # change to all matches
+        soup = url_to_soup(matchPagesLinks[i])
+        mapsStatusRaw = soup.find_all(class_="results-team-score")  # 6
+        for j in range(len(mapsStatusRaw)):
+            indexBegin = str(mapsStatusRaw[j]).find('team-score')
+            indexEnd = str(mapsStatusRaw[j]).find('</div>')
+            mapStatus = str(mapsStatusRaw[j])[indexBegin + 12: indexEnd]  # 12
+            all_maps_scores.append(mapStatus)
+
+        if (i % 2):  # error 1015 handle
+            time.sleep(0.25)
+
+    for i in range(0, len(all_maps_scores), 2):
+        if all_maps_scores[i].isdigit() and all_maps_scores[i + 1].isdigit():
+            all_maps_scores[i] = int(all_maps_scores[i])
+            all_maps_scores[i + 1] = int(all_maps_scores[i + 1])
+            print(all_maps_scores[i], all_maps_scores[i + 1], all_maps_scores[i] > all_maps_scores[i + 1])
+
+        else:
+            print(all_maps_scores[i], all_maps_scores[i + 1], False)
+
+    return teamAMap1Win, teamAMap2Win, teamAMap3Win
+
+
 def all_previous_matches_to_csv(path_,filename_):
     with open(("%s%s%s" % (path_, filename_, ".csv")), "w", newline="") as file:
         file.write("%s,%s,%s,%s,%s%s" % ("Team A", "Team B", "map1", "map2", "map3", "\n"))
