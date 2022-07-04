@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import csv
+import time
 
 # TO DO
 # check if two team in top 30
@@ -9,7 +10,7 @@ import csv
 # map column
 # map winrate team a and team b column
 
-pages = 6
+pages = 2
 
 def url_to_soup(url_):
     page = requests.get(url_)
@@ -36,16 +37,20 @@ def get_match_pages_results_links(url_,amount_pages):
 matchPagesLinks = get_match_pages_results_links("https://www.hltv.org/results", pages)
 
 
-def get_teams(pages_amount):
+def get_teams():
     """
     :param pages_amount:
     :return:  teamA, teamB
     """
     teamA_ = []
     teamB_ = []
+    teamName = []
     for i in range(len(matchPagesLinks)):
         soup = url_to_soup(matchPagesLinks[i])
         teamsNameRaw = soup.find_all(class_="teamName")
+        print(teamsNameRaw)
+        if(i%2): # error 1015 handle
+            time.sleep(1)
         for j in range(2):
             if len(list(teamsNameRaw)) != 0:
                 teamName = list(teamsNameRaw)[j]
@@ -58,8 +63,7 @@ def get_teams(pages_amount):
                 teamA_.append(teamnameFixed)
     return teamA_, teamB_
 
-
-teamA, teamB = get_teams(pages)
+teamA, teamB = get_teams()
 
 
 def all_previous_matches_to_csv(path_,filename_):
