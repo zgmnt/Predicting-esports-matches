@@ -52,7 +52,7 @@ def get_teams():
         teamsNameRaw = soup.find_all(class_="teamName")
         print(i, "teams")
         if(i%2): # error 1015 handle
-            time.sleep(0.25)
+            time.sleep(0.15)
         for j in range(2):
             if len(list(teamsNameRaw)) != 0:
                 teamName = list(teamsNameRaw)[j]
@@ -132,15 +132,22 @@ def get_maps_status():
 
 columnTeamAmap1Win,columnTeamAmap2Win, columnTeamAmap3Win =  get_maps_status()
 
-def all_previous_matches_to_csv(path_,filename_):
+
+
+"""def csv_generatorAllResults(path_,filename_):
     with open(("%s%s%s" % (path_, filename_, ".csv")), "w", newline="") as file:
-        file.write("%s,%s,%s,%s,%s,%s,%s,%s%s"
-                   % ("Team A", "Team B", "map1", "map2", "map3"
-                      ,"Team-A-map1-Status","Team-A-map2-Status","Team-A-map3-Status", "\n"))
+        file.write("%s,%s,%s,%s,%s%s"
+                   % ("Team A", "Team B", "map1", "map2", "map3", "\n"))
         for i in range(len(map2)): # handle blank map2 and map3
-            file.write("%s,%s,%s,%s,%s,%s,%s,%s\n"
-                       % (teamA[i], teamB[i], map1[i], map2[i], map3[i]
-                          ,columnTeamAmap1Win[i],columnTeamAmap2Win[i],columnTeamAmap3Win[i] ))
+            file.write("%s,%s,%s,%s,%s\n"% (teamA[i], teamB[i], map1[i], map2[i], map3[i] ))"""
 
-all_previous_matches_to_csv("..//data//results//", "allPreviousMatchesStats")
 
+def csv_generatorTeamAmapStatus(path_,filename_):
+    with open(("%s%s%s" % (path_, filename_, ".csv")), "w", newline="") as file:
+        file.write("%s,%s,%s%s"
+                   % ("map1", "map2", "map3", "\n"))
+        for i in range(len(columnTeamAmap1Win)):
+            file.write("%s,%s,%s\n"% (columnTeamAmap1Win[i], columnTeamAmap2Win[i],columnTeamAmap3Win[i]))
+
+#csv_generatorAllResults("..//data//results//", "allPreviousMatchesStats")
+csv_generatorTeamAmapStatus("..//data//results//", "TeamA-map-win-lose-status")
