@@ -1,16 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
-import csv
 import time
-import re
-
-# TO DO
-# check if two team in top 30
-# team a score, team b score column
-# map column
-# map winrate team a and team b column
-
-pages = 1 # some links dont work cause data gaps
 
 
 def url_to_soup(url_):
@@ -34,9 +24,6 @@ def get_match_pages_results_links(url_,amount_pages):
         url_ += offsetLink+str(offset)
         offset += 100
     return resultsLinks_
-
-
-matchPagesLinks = get_match_pages_results_links("https://www.hltv.org/results", pages)
 
 
 def get_teams():
@@ -65,8 +52,6 @@ def get_teams():
                 teamA_.append(teamnameFixed)
     return teamA_, teamB_
 
-#teamA, teamB = get_teams()
-
 
 def get_maps():
     mapsRaw = []
@@ -91,9 +76,6 @@ def get_maps():
                     map3_.append(str(mapsRaw[j])[indexBegin + 9:indexEnd])
 
     return map1_, map2_, map3_
-
-
-#map1, map2, map3 = get_maps()
 
 
 def get_maps_status():
@@ -130,24 +112,28 @@ def get_maps_status():
     return teamAMap1Win, teamAMap2Win, teamAMap3Win
 
 
-columnTeamAmap1Win,columnTeamAmap2Win, columnTeamAmap3Win =  get_maps_status()
-
-
-
-"""def csv_generatorAllResults(path_,filename_):
+def csv_generator_all_results(path_,filename_):
     with open(("%s%s%s" % (path_, filename_, ".csv")), "w", newline="") as file:
         file.write("%s,%s,%s,%s,%s%s"
                    % ("Team A", "Team B", "map1", "map2", "map3", "\n"))
-        for i in range(len(map2)): # handle blank map2 and map3
-            file.write("%s,%s,%s,%s,%s\n"% (teamA[i], teamB[i], map1[i], map2[i], map3[i] ))"""
+        for i in range(len(map2)):
+            file.write("%s,%s,%s,%s,%s\n"% (teamA[i], teamB[i], map1[i], map2[i], map3[i] ))
 
 
-def csv_generatorTeamAmapStatus(path_,filename_):
+def csv_generator_team_a_map_status(path_,filename_):
     with open(("%s%s%s" % (path_, filename_, ".csv")), "w", newline="") as file:
         file.write("%s,%s,%s%s"
                    % ("map1", "map2", "map3", "\n"))
         for i in range(len(columnTeamAmap1Win)):
             file.write("%s,%s,%s\n"% (columnTeamAmap1Win[i], columnTeamAmap2Win[i],columnTeamAmap3Win[i]))
 
-#csv_generatorAllResults("..//data//results//", "allPreviousMatchesStats")
-csv_generatorTeamAmapStatus("..//data//results//", "TeamA-map-win-lose-status")
+
+pages = 1 # for loop
+matchPagesLinks = get_match_pages_results_links("https://www.hltv.org/results", pages)
+teamA, teamB = get_teams()
+map1, map2, map3 = get_maps()
+columnTeamAmap1Win,columnTeamAmap2Win, columnTeamAmap3Win =  get_maps_status()
+
+# generate csv
+csv_generator_all_results("..//data//results//", "allPreviousMatchesStats")
+csv_generator_team_a_map_status("..//data//results//", "TeamA-map-win-lose-status")
