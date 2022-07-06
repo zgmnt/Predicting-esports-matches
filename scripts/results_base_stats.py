@@ -11,133 +11,96 @@ def url_to_soup(url):
 def get_links_match_pages(url_, pages_amount):
     offset = 100
     results_links = []
-    offsetLink = "?offset="
-    offsetMax = pages_amount * offset
+    offset_link = "?offset="
     for i in range(int(pages_amount)):
-        resultsRaw = url_to_soup(url_).find_all(class_="result-con")
-        for elem in resultsRaw:
-            indexBegin = str(elem).find('href="/matches')
-            indexEnd = str(elem).find('<div class="result">')
+        results_raw = url_to_soup(url_).find_all(class_="result-con")
+        for elem in results_raw:
+            index_begin = str(elem).find('href="/matches')
+            index_end = str(elem).find('<div class="result">')
             prefix = "https://www.hltv.org/"
-            results_links.append(prefix + str(elem)[indexBegin + 6:indexEnd - 3])
+            results_links.append(prefix + str(elem)[index_begin + 6:index_end - 3])
         url_ = "https://www.hltv.org/results"
-        url_ += offsetLink + str(offset)
+        url_ += offset_link + str(offset)
         offset += 100
     return results_links
 
 
 def get_teams(matches_links):
-    teamA_ = []
-    teamB_ = []
-    teamName = []
-    for i in range(len(matches_links)):
+    team_a = []
+    team_b = []
+    team_name = []
+    for i in range(4):
         soup = url_to_soup(matches_links[i])
-        teamsNameRaw = soup.find_all(class_="teamName")
+        teams_name_raw = soup.find_all(class_="teamName")
         print(i, "teams")
-        if (i % 2):  # error 1015 handle
+        if i % 2:  # error 1015 handle
             time.sleep(0.5)
         for j in range(2):
-            if len(list(teamsNameRaw)) != 0:
-                teamName = list(teamsNameRaw)[j]
-            indexBegin = str(teamName).find('teamName')
-            indexEnd = str(teamName).find('</div>')
-            teamnameFixed = str(teamName)[indexBegin + 10: indexEnd]
+            if len(list(teams_name_raw)) != 0:
+                team_name = list(teams_name_raw)[j]
+            index_begin = str(team_name).find('teamName')
+            index_end = str(team_name).find('</div>')
+            team_name_fixed = str(team_name)[index_begin + 10: index_end]
             if j % 2:
-                teamB_.append(teamnameFixed)
+                team_b.append(team_name_fixed)
             else:
-                teamA_.append(teamnameFixed)
-    return teamA_, teamB_
+                team_a.append(team_name_fixed)
+    return team_a, team_b
 
 
 def get_maps(matches_links):
-    mapsRaw = []
-    map1_ = []
-    map2_ = []
-    map3_ = []
-    for i in range(len(matches_links)):
+    maps = {}
+    temp = []
+    for i in range(4):
+        print(i, "map")
         soup = url_to_soup(matches_links[i])
-        mapsRaw = soup.find_all(class_="mapname")
-        if (i % 2):  # error 1015 handle
-            time.sleep(0.25)
-        for j in range(len(mapsRaw)):
-            indexBegin = str(mapsRaw[j]).find('mapname')
-            indexEnd = str(mapsRaw[j]).find('</div>')
-            map = str(mapsRaw[j])[indexBegin + 9:indexEnd]
-            match j:
-                case 0:
-                    map1_.append(map)
-                case 1:
-                    map2_.append(map)
-                case 2:
-                    map3_.append(map)
+        maps_raw = soup.find_all(class_="mapname")
+        scores = soup.find_all(class_="results-team-score")
+        for z in range(4,len(scores),2): # - = bo2, digit = bo3
+            index_begin2 = str(scores[z]).find('results-team-score')
+            index_end2 = str(scores[z]).find('</div>')
+            score_fixed = str(scores[z])[index_begin2 + 20: index_end2]
+            if score_fixed.isdigit():
+                maps_amount = 3
+            else:
+                maps_amount = 2
 
-    print(len(map1_), "MAP1")
-    print(len(map2_), "MAP2")
-    print(len(map3_), "MAP3")
-    return map1_, map2_, map3_
+            for j in range(maps_amount):
+                index_begin = str(maps_raw[j]).find('mapname')
+                index_end = str(maps_raw[j]).find('</div>')
+                map_fixed = str(maps_raw[j])[index_begin + 9:index_end]
+                temp.append(map_fixed)
 
+        maps.update({i+1: list(temp)})
+        temp.clear()
 
-def get_maps_status(matches_links):
-    teamAMap1Win = []
-    teamAMap2Win = []
-    teamAMap3Win = []
-    all_maps_scores = []
-    teamAMapWinAllMaps = []
-    for i in range(len(matches_links)):  # change to all matches
-        soup = url_to_soup(matches_links[i])
-        mapsStatusRaw = soup.find_all(class_="results-team-score")  # 6
-        for j in range(len(mapsStatusRaw)):
-            indexBegin = str(mapsStatusRaw[j]).find('team-score')
-            indexEnd = str(mapsStatusRaw[j]).find('</div>')
-            mapStatus = str(mapsStatusRaw[j])[indexBegin + 12: indexEnd]  # 12
-            all_maps_scores.append(mapStatus)
-
-        if (i % 2):  # error 1015 handle
+        if i % 2:
             time.sleep(0.5)
 
-    for i in range(0, len(all_maps_scores), 2):
-        if all_maps_scores[i].isdigit() and all_maps_scores[i + 1].isdigit():
-            all_maps_scores[i] = int(all_maps_scores[i])
-            all_maps_scores[i + 1] = int(all_maps_scores[i + 1])
-            teamAMapWinAllMaps.append(all_maps_scores[i] > all_maps_scores[i + 1])
-        else:
-            teamAMapWinAllMaps.append(False)
-
-    for i in range(0, len(teamAMapWinAllMaps), 3):
-        teamAMap1Win.append(teamAMapWinAllMaps[i])
-        teamAMap2Win.append(teamAMapWinAllMaps[i + 1])
-        teamAMap3Win.append(teamAMapWinAllMaps[i + 2])
-
-    return teamAMap1Win, teamAMap2Win, teamAMap3Win
+    return maps
 
 
-def to_csv_teams_maps(page, path_, filename_, map1, map2, map3, team_a, team_b):
-    with open(("%s%s%s%s%s" % (path_, filename_,"_p_", page, ".csv")), "w", newline="") as file:
-        file.write("%s,%s,%s,%s,%s%s" % ("Team A", "Team B", "map1", "map2", "map3", "\n"))
-        for i in range(len(map2)-1):
-            file.write("%s,%s,%s,%s,%s\n" % (team_a[i], team_b[i], map1[i], map2[i], map3[i]))
+def to_csv_results_base_stats(path_, filename_, team_a, team_b, maps):
+    with open(("%s%s%s" % (path_, filename_, ".csv")), "w", newline="") as file:
+        file.write("%s,%s,%s,%s%s" % ("noMatch", "teamA", "teamB", "map", "\n"))
+        for i in range(len(team_a)):
+            for j in range(len(list(MAPS.values())[i])):
+                file.write("%s,%s,%s\n" % (team_a[i], team_b[i], list(maps.values())[i][j]))
 
 
-def to_csv_team_a_map_status(page, path, filename, map1, map2, map3):
-    with open(("%s%s%s%s%s" % (path, filename,"_p_",page, ".csv")), "w", newline="") as file:
-        file.write("%s,%s,%s%s" % ("map1", "map2", "map3", "\n"))
-        for i in range(len(map1)-1):
-            file.write("%s,%s,%s\n" % (map1[i], map2[i], map3[i]))
+
+
 
 
 URL = "https://www.hltv.org/results"
-PAGES_AMOUNT = 7  # page-csv file, then join tables
+PAGES_AMOUNT = 1
 MATCHES_LINKS = get_links_match_pages(URL, PAGES_AMOUNT)
 TEAM_A, TEAM_B = get_teams(MATCHES_LINKS)
-
-#MAP1, MAP2, MAP3 = get_maps(MATCHES_LINKS)
-#COLUMN_TEAM_A_MAP_1_STATUS, COLUMN_TEAM_A_MAP_2_STATUS, COLUMN_TEAM_A_MAP_3_STATUS = get_maps_status(MATCHES_LINKS)
-#print(len(TEAM_A), "team a")
-#print(len(TEAM_B), "team b")
+MAPS = get_maps(MATCHES_LINKS)
 
 
 # generate csv
+
 RESULTS_PATH = "..//data//results//"
-#to_csv_teams_maps(PAGES_AMOUNT,RESULTS_PATH, "previous-matches-stats", MAP1, MAP2, MAP3, TEAM_A, TEAM_B)
-#to_csv_team_a_map_status(PAGES_AMOUNT,RESULTS_PATH,"team-A-map-win-status",
-                            #COLUMN_TEAM_A_MAP_1_STATUS, COLUMN_TEAM_A_MAP_2_STATUS, COLUMN_TEAM_A_MAP_3_STATUS)
+to_csv_results_base_stats(RESULTS_PATH, "results_base_stats", TEAM_A, TEAM_B, MAPS)
+
