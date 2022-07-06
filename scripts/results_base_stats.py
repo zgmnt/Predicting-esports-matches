@@ -111,34 +111,40 @@ def get_scores(matches_links):
     return score_a, score_b
 
 
-def to_csv_teams_maps(path_, filename_, team_a, team_b, maps):
+def get_big_results_length(url):
+    soup = url_to_soup(url)
+    big_results = soup.find(class_="big-results").find_all(class_="result-con")
+    return len(big_results)
+
+
+def to_csv_teams_maps(skip_index,path_, filename_, team_a, team_b, maps):
     with open(("%s%s%s" % (path_, filename_, ".csv")), "w", newline="") as file:
         file.write("%s,%s,%s%s" % ("teamA", "teamB", "map", "\n"))
-        for i in range(len(team_a)):
-            for j in range(len(list(MAPS.values())[i])):
+        for i in range(skip_index,len(team_a)):
+            for j in range(len(list(maps.values())[i])):
                 file.write("%s,%s,%s\n" % (team_a[i], team_b[i], list(maps.values())[i][j]))
 
 
-def to_csv_scores(path_, filename_, score_a, score_b):
+def to_csv_scores(skip_index, path_, filename_, score_a, score_b):
     with open(("%s%s%s" % (path_, filename_, ".csv")), "w", newline="") as file:
         file.write("%s,%s%s" % ("scoreTeamA", "scoreTeamB", "\n"))
-        for i in range(len(score_a)):
+        for i in range(skip_index, len(score_a)):
             file.write("%s,%s\n" % (score_a[i], score_b[i]))
 
 
 URL = "https://www.hltv.org/results"
-PAGES_AMOUNT = 10
+PAGES_AMOUNT = 1
 MATCHES_LINKS = get_links_match_pages(URL, PAGES_AMOUNT)
 TEAM_A, TEAM_B = get_teams(MATCHES_LINKS)
 MAPS = get_maps(MATCHES_LINKS)
 SCORE_A, SCORE_B = get_scores(MATCHES_LINKS)
-
-
+SKIP_INDEX = get_big_results_length(URL)
+print(SKIP_INDEX)
 # generate csv
 
 RESULTS_PATH = "..//data//results//"
-to_csv_teams_maps(RESULTS_PATH, "results_teams_maps", TEAM_A, TEAM_B, MAPS)
-to_csv_scores(RESULTS_PATH, "results_scores", SCORE_A,SCORE_B)
+to_csv_teams_maps(SKIP_INDEX, RESULTS_PATH, "results_teams_maps", TEAM_A, TEAM_B, MAPS)
+to_csv_scores(SKIP_INDEX, RESULTS_PATH, "results_scores", SCORE_A,SCORE_B)
 
 
 tab1 = pd.read_csv("..//data//results//results_teams_maps.csv")
