@@ -1,3 +1,4 @@
+import pandas as pd
 from bs4 import BeautifulSoup
 import requests
 import time
@@ -29,7 +30,7 @@ def get_teams(matches_links):
     team_a = []
     team_b = []
     team_name = []
-    for i in range(4):
+    for i in range(len(matches_links)):
         soup = url_to_soup(matches_links[i])
         teams_name_raw = soup.find_all(class_="teamName")
         print(i, "teams")
@@ -51,11 +52,17 @@ def get_teams(matches_links):
 def get_maps(matches_links):
     maps = {}
     temp = []
-    for i in range(4):
-        print(i, "map")
+    maps_amount = 0
+    for i in range(len(matches_links)):
+        print(i, "maps")
         soup = url_to_soup(matches_links[i])
         maps_raw = soup.find_all(class_="mapname")
         scores = soup.find_all(class_="results-team-score")
+
+        # check bo1
+        if len(scores) == 2:
+            maps_amount = 1
+
         for z in range(4,len(scores),2): # - = bo2, digit = bo3
             index_begin2 = str(scores[z]).find('results-team-score')
             index_end2 = str(scores[z]).find('</div>')
@@ -65,7 +72,8 @@ def get_maps(matches_links):
             else:
                 maps_amount = 2
 
-            for j in range(maps_amount):
+        for j in range(maps_amount):
+
                 index_begin = str(maps_raw[j]).find('mapname')
                 index_end = str(maps_raw[j]).find('</div>')
                 map_fixed = str(maps_raw[j])[index_begin + 9:index_end]
@@ -80,27 +88,62 @@ def get_maps(matches_links):
     return maps
 
 
-def to_csv_results_base_stats(path_, filename_, team_a, team_b, maps):
+def get_scores(matches_links):
+    score_a = []
+    score_b = []
+    for i in range(len(matches_links)):
+        print(i, "scores")
+        soup = url_to_soup(matches_links[i])
+        scores = soup.find_all(class_="results-team-score")
+        for z in range(0, len(scores)):
+            index_begin2 = str(scores[z]).find('results-team-score')
+            index_end2 = str(scores[z]).find('</div>')
+            score_fixed = str(scores[z])[index_begin2 + 20: index_end2]
+            if score_fixed.isdigit():
+                if z % 2:
+                    score_b.append(score_fixed)
+                else:
+                    score_a.append(score_fixed)
+
+        if i % 2:
+            time.sleep(0.5)
+
+    return score_a, score_b
+
+
+def to_csv_teams_maps(path_, filename_, team_a, team_b, maps):
     with open(("%s%s%s" % (path_, filename_, ".csv")), "w", newline="") as file:
-        file.write("%s,%s,%s,%s%s" % ("noMatch", "teamA", "teamB", "map", "\n"))
+        file.write("%s,%s,%s%s" % ("teamA", "teamB", "map", "\n"))
         for i in range(len(team_a)):
             for j in range(len(list(MAPS.values())[i])):
                 file.write("%s,%s,%s\n" % (team_a[i], team_b[i], list(maps.values())[i][j]))
 
 
-
-
+def to_csv_scores(path_, filename_, score_a, score_b):
+    with open(("%s%s%s" % (path_, filename_, ".csv")), "w", newline="") as file:
+        file.write("%s,%s%s" % ("scoreTeamA", "scoreTeamB", "\n"))
+        for i in range(len(score_a)):
+            file.write("%s,%s\n" % (score_a[i], score_b[i]))
 
 
 URL = "https://www.hltv.org/results"
-PAGES_AMOUNT = 1
+PAGES_AMOUNT = 10
 MATCHES_LINKS = get_links_match_pages(URL, PAGES_AMOUNT)
 TEAM_A, TEAM_B = get_teams(MATCHES_LINKS)
 MAPS = get_maps(MATCHES_LINKS)
+SCORE_A, SCORE_B = get_scores(MATCHES_LINKS)
 
 
 # generate csv
 
 RESULTS_PATH = "..//data//results//"
-to_csv_results_base_stats(RESULTS_PATH, "results_base_stats", TEAM_A, TEAM_B, MAPS)
+to_csv_teams_maps(RESULTS_PATH, "results_teams_maps", TEAM_A, TEAM_B, MAPS)
+to_csv_scores(RESULTS_PATH, "results_scores", SCORE_A,SCORE_B)
 
+
+tab1 = pd.read_csv("..//data//results//results_teams_maps.csv")
+tab2 = pd.read_csv("..//data//results//results_scores.csv")
+
+results = pd.concat([tab1, tab2], axis = 1)
+
+results.to_csv("..//data//results//results_base_stats.csv", index= False)
