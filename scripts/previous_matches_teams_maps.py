@@ -35,7 +35,7 @@ def get_teams(matches_links):
         teamsNameRaw = soup.find_all(class_="teamName")
         print(i, "teams")
         if (i % 2):  # error 1015 handle
-            time.sleep(0.15)
+            time.sleep(0.5)
         for j in range(2):
             if len(list(teamsNameRaw)) != 0:
                 teamName = list(teamsNameRaw)[j]
@@ -57,20 +57,23 @@ def get_maps(matches_links):
     for i in range(len(matches_links)):
         soup = url_to_soup(matches_links[i])
         mapsRaw = soup.find_all(class_="mapname")
-        print(i, "maps")
         if (i % 2):  # error 1015 handle
             time.sleep(0.25)
         for j in range(len(mapsRaw)):
             indexBegin = str(mapsRaw[j]).find('mapname')
             indexEnd = str(mapsRaw[j]).find('</div>')
+            map = str(mapsRaw[j])[indexBegin + 9:indexEnd]
             match j:
                 case 0:
-                    map1_.append(str(mapsRaw[j])[indexBegin + 9:indexEnd])
+                    map1_.append(map)
                 case 1:
-                    map2_.append(str(mapsRaw[j])[indexBegin + 9:indexEnd])
+                    map2_.append(map)
                 case 2:
-                    map3_.append(str(mapsRaw[j])[indexBegin + 9:indexEnd])
+                    map3_.append(map)
 
+    print(len(map1_), "MAP1")
+    print(len(map2_), "MAP2")
+    print(len(map3_), "MAP3")
     return map1_, map2_, map3_
 
 
@@ -90,7 +93,7 @@ def get_maps_status(matches_links):
             all_maps_scores.append(mapStatus)
 
         if (i % 2):  # error 1015 handle
-            time.sleep(0.25)
+            time.sleep(0.5)
 
     for i in range(0, len(all_maps_scores), 2):
         if all_maps_scores[i].isdigit() and all_maps_scores[i + 1].isdigit():
@@ -123,17 +126,18 @@ def to_csv_team_a_map_status(page, path, filename, map1, map2, map3):
 
 
 URL = "https://www.hltv.org/results"
-PAGES_AMOUNT = 3  # page-csv file, then join tables
-for i in range(PAGES_AMOUNT):
+PAGES_AMOUNT = 7  # page-csv file, then join tables
+MATCHES_LINKS = get_links_match_pages(URL, PAGES_AMOUNT)
+TEAM_A, TEAM_B = get_teams(MATCHES_LINKS)
 
-    MATCHES_LINKS = get_links_match_pages(URL, PAGES_AMOUNT)
-    TEAM_A, TEAM_B = get_teams(MATCHES_LINKS)
-    MAP1, MAP2, MAP3 = get_maps(MATCHES_LINKS)
-    COLUMN_TEAM_A_MAP_1_STATUS, COLUMN_TEAM_A_MAP_2_STATUS, COLUMN_TEAM_A_MAP_3_STATUS = get_maps_status(MATCHES_LINKS)
+#MAP1, MAP2, MAP3 = get_maps(MATCHES_LINKS)
+#COLUMN_TEAM_A_MAP_1_STATUS, COLUMN_TEAM_A_MAP_2_STATUS, COLUMN_TEAM_A_MAP_3_STATUS = get_maps_status(MATCHES_LINKS)
+#print(len(TEAM_A), "team a")
+#print(len(TEAM_B), "team b")
 
 
-    # generate csv
-    RESULTS_PATH = "..//data//results//"
-    to_csv_teams_maps(PAGES_AMOUNT,RESULTS_PATH, "previous-matches-stats", MAP1, MAP2, MAP3, TEAM_A, TEAM_B)
-    to_csv_team_a_map_status(PAGES_AMOUNT,RESULTS_PATH,"team-A-map-win-status",
-                             COLUMN_TEAM_A_MAP_1_STATUS, COLUMN_TEAM_A_MAP_2_STATUS, COLUMN_TEAM_A_MAP_3_STATUS)
+# generate csv
+RESULTS_PATH = "..//data//results//"
+#to_csv_teams_maps(PAGES_AMOUNT,RESULTS_PATH, "previous-matches-stats", MAP1, MAP2, MAP3, TEAM_A, TEAM_B)
+#to_csv_team_a_map_status(PAGES_AMOUNT,RESULTS_PATH,"team-A-map-win-status",
+                            #COLUMN_TEAM_A_MAP_1_STATUS, COLUMN_TEAM_A_MAP_2_STATUS, COLUMN_TEAM_A_MAP_3_STATUS)
