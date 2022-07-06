@@ -27,20 +27,28 @@ def get_links_match_pages(url_, pages_amount):
 
 def get_maps(matches_links):
     maps = {}
-    for i in range(2):
+    temp = []
+    for i in range(4):
         soup = url_to_soup(matches_links[i])
         maps_raw = soup.find_all(class_="mapname")
         scores = soup.find_all(class_="results-team-score")
-        for j in range(len(maps_raw)):
-            index_begin = str(maps_raw[j]).find('mapname')
-            index_end = str(maps_raw[j]).find('</div>')
-            map_fixed = str(maps_raw[j])[index_begin + 9:index_end]
-        for z in range(len(scores)):
+        for z in range(4,len(scores),2): # - = bo2, digit = bo3
             index_begin2 = str(scores[z]).find('results-team-score')
             index_end2 = str(scores[z]).find('</div>')
             score_fixed = str(scores[z])[index_begin2 + 20: index_end2]
+            if score_fixed.isdigit():
+                maps_amount = 3
+            else:
+                maps_amount = 2
 
-        maps.update({1: ["inferno", "mirage", "nuke"]})
+            for j in range(maps_amount):
+                index_begin = str(maps_raw[j]).find('mapname')
+                index_end = str(maps_raw[j]).find('</div>')
+                map_fixed = str(maps_raw[j])[index_begin + 9:index_end]
+                temp.append(map_fixed)
+
+        maps.update({i+1: list(temp)})
+        temp.clear()
 
         if i % 2:
             time.sleep(0.5)
