@@ -1,0 +1,2027 @@
+,teamA,teamB,map,scoreTeamA,scoreTeamB
+0,iNation,Germany,Dust2,16,8
+1,iNation,Germany,Ancient,13,16
+2,iNation,Germany,Nuke,16,14
+3,Cloud9,Outsiders,Dust2,16,6
+4,Cloud9,Outsiders,Ancient,16,12
+5,Spain,Slovakia,Inferno,16,11
+6,Spain,Slovakia,Overpass,16,13
+7,Natus Vincere,MOUZ,Nuke,16,12
+8,Natus Vincere,MOUZ,Mirage,14,16
+9,Natus Vincere,MOUZ,Inferno,16,6
+10,ENCE,Vitality,Nuke,10,16
+11,ENCE,Vitality,Dust2,16,12
+12,ENCE,Vitality,Mirage,7,16
+13,CatEvil,YK,Nuke,15,19
+14,Austria,Germany,Overpass,14,16
+15,Austria,Germany,Vertigo,15,19
+16,Belgium,Spain,Inferno,2,16
+17,Belgium,Spain,Nuke,9,16
+18,NSN,Wings Up,Inferno,16,11
+19,YK,Lynn Vision,Overpass,16,13
+20,Wings Up,Invictus,Nuke,16,11
+21,TheMongolz,CatEvil,Nuke,14,16
+22,NSN,ARAVT,Ancient,16,9
+23,Slovakia,Czech Republic,Mirage,17,19
+24,Morbin5,Paradox,Mirage,12,16
+25,Ukraine,iNation,Vertigo,16,1
+26,Aftershock,Antic,Dust2,16,10
+27,NIP,Heroic,Ancient,16,13
+28,NIP,Heroic,Inferno,16,13
+29,G2,Movistar Riders,Vertigo,12,16
+30,G2,Movistar Riders,Inferno,9,16
+31,Czech Republic,Spain,Dust2,16,14
+32,iNation,Germany,Inferno,16,1
+33,Ukraine,Austria,Mirage,16,7
+34,Belgium,Slovakia,Mirage,7,16
+35,Stone,River Plate,Inferno,19,22
+36,Stone,River Plate,Ancient,19,16
+37,Stone,River Plate,Overpass,10,16
+38,Davenport University,ONET4P,Overpass,12,16
+39,Davenport University,ONET4P,Inferno,3,16
+40,Daotsu,The Union,Inferno,7,16
+41,Daotsu,The Union,Overpass,16,11
+42,Daotsu,The Union,Mirage,16,8
+43,Isurus,Holkattes,Inferno,6,16
+44,Isurus,Holkattes,Nuke,10,16
+45,00NATION,Imperial,Ancient,16,12
+46,00NATION,Imperial,Overpass,16,12
+47,Israel,OneTap,Nuke,16,9
+48,Israel,OneTap,Inferno,19,17
+49,Sweden,Croatia,Vertigo,22,20
+50,Sweden,Croatia,Overpass,6,16
+51,Sweden,Croatia,Mirage,16,14
+52,MOUZ,TYLOO,Overpass,16,7
+53,MOUZ,TYLOO,Ancient,16,11
+54,AGO,ONYX,Mirage,16,19
+55,AGO,ONYX,Ancient,16,13
+56,AGO,ONYX,Vertigo,19,15
+57,UNGENTIUM,EC Kyiv,Vertigo,5,16
+58,UNGENTIUM,EC Kyiv,Dust2,16,8
+59,UNGENTIUM,EC Kyiv,Ancient,19,16
+60,BIG,Astralis,Nuke,14,16
+61,BIG,Astralis,Dust2,16,13
+62,BIG,Astralis,Overpass,11,16
+63,Sprout,Vitality,Vertigo,22,20
+64,Sprout,Vitality,Dust2,11,16
+65,Sprout,Vitality,Overpass,10,16
+66,Israel,Perspektiva,Inferno,16,6
+67,Israel,Perspektiva,Mirage,16,10
+68,Croatia,Luxembourg,Vertigo,16,11
+69,Croatia,Luxembourg,Inferno,16,1
+70,OneTap,Norway,Overpass,11,16
+71,Sweden,BLUEJAYS,Mirage,12,16
+72,ORDER,Imperial,Inferno,16,8
+73,ORDER,Imperial,Mirage,8,16
+74,ORDER,Imperial,Nuke,11,16
+75,MIBR,TYLOO,Inferno,16,5
+76,MIBR,TYLOO,Overpass,3,16
+77,MIBR,TYLOO,Dust2,10,16
+78,Perspektiva,Norway,Mirage,7,16
+79,BLUEJAYS,Luxembourg,Dust2,16,8
+80,DGG,Aftershock,Mirage,8,16
+81,DGG,Aftershock,Vertigo,16,6
+82,DGG,Aftershock,Nuke,16,8
+83,OneTap,Israel,Vertigo,16,11
+84,Sweden,Croatia,Mirage,16,1
+85,Luxe,Northern Forces,Inferno,16,9
+86,Luxe,Northern Forces,Mirage,16,13
+87,Movistar Riders,Vitality,Vertigo,16,13
+88,Movistar Riders,Vitality,Overpass,16,4
+89,Complexity,Astralis,Overpass,10,16
+90,Complexity,Astralis,Nuke,9,16
+91,BIG,Outsiders,Inferno,13,16
+92,BIG,Outsiders,Dust2,13,16
+93,Spirit,00NATION,Vertigo,16,5
+94,Spirit,00NATION,Dust2,14,16
+95,Spirit,00NATION,Ancient,16,13
+96,Sprout,paiN,Ancient,16,10
+97,Sprout,paiN,Dust2,12,16
+98,Sprout,paiN,Vertigo,16,10
+99,Heroic,MOUZ,Ancient,16,5
+100,Heroic,MOUZ,Inferno,11,16
+101,Heroic,MOUZ,Nuke,16,7
+102,TYLOO,Vitality,Overpass,9,16
+103,MIBR,Movistar Riders,Ancient,13,16
+104,Rooster,Aftershock,Dust2,9,16
+105,Antic,DGG,Vertigo,10,16
+106,Outsiders,Imperial,Inferno,16,6
+107,00NATION,Astralis,Mirage,16,6
+108,BIG,ORDER,Nuke,16,7
+109,MOUZ,paiN,Nuke,19,16
+110,Spirit,Complexity,Ancient,16,11
+111,Heroic,Sprout,Overpass,16,3
+112,B4,Daotsu,Mirage,16,9
+113,B4,Daotsu,Dust2,12,16
+114,B4,Daotsu,Inferno,16,13
+115,ECLOT,ONYX,Overpass,13,16
+116,ECLOT,ONYX,Inferno,16,11
+117,ECLOT,ONYX,Mirage,19,16
+118,Stars Horizon,The Union,Ancient,14,16
+119,Stars Horizon,The Union,Dust2,5,16
+120,BIG Academy,AGO,Ancient,11,16
+121,BIG Academy,AGO,Dust2,16,6
+122,BIG Academy,AGO,Mirage,19,17
+123,ECLOT,UNGENTIUM,Vertigo,11,16
+124,ECLOT,UNGENTIUM,Mirage,7,16
+125,EC Kyiv,Apeks,Mirage,16,10
+126,EC Kyiv,Apeks,Dust2,16,10
+127,ODDIK,Meta BR,Nuke,16,9
+128,ODDIK,Meta BR,Inferno,16,6
+129,Outsiders,Movistar Riders,Inferno,16,9
+130,Outsiders,Movistar Riders,Overpass,14,16
+131,Outsiders,Movistar Riders,Vertigo,14,16
+132,ARCTIC,Stars Horizon,Ancient,16,12
+133,ARCTIC,Stars Horizon,Mirage,16,10
+134,Nigma Galaxy,FURIA fe,Dust2,16,8
+135,Nigma Galaxy,FURIA fe,Vertigo,16,11
+136,Sangal,EC Kyiv,Inferno,10,16
+137,Sangal,EC Kyiv,Overpass,12,16
+138,Movistar Riders,Sprout,Inferno,16,5
+139,Movistar Riders,Sprout,Nuke,16,11
+140,FURIA fe,NAVI Javelins,Vertigo,16,6
+141,FURIA fe,NAVI Javelins,Mirage,16,13
+142,B8,BLUEJAYS,Vertigo,16,12
+143,B8,BLUEJAYS,Inferno,19,17
+144,Outsiders,Rare Atom,Inferno,16,12
+145,Outsiders,Rare Atom,Vertigo,16,14
+146,Nigma Galaxy,MIBR fe,Dust2,16,10
+147,Nigma Galaxy,MIBR fe,Vertigo,16,5
+148,Redragon,Meta BR,Inferno,10,16
+149,Redragon,Meta BR,Dust2,19,17
+150,Redragon,Meta BR,Nuke,8,16
+151,HEET,Bad News Eagles,Nuke,16,10
+152,HEET,Bad News Eagles,Inferno,16,10
+153,ODDIK,Rehl,Dust2,16,8
+154,ODDIK,Rehl,Ancient,16,12
+155,CLG Red,MIBR fe,Vertigo,12,16
+156,CLG Red,MIBR fe,Inferno,9,16
+157,Sprout,00NATION,Dust2,16,8
+158,Sprout,00NATION,Overpass,16,4
+159,EC Kyiv,BLUEJAYS,Dust2,11,16
+160,EC Kyiv,BLUEJAYS,Mirage,16,3
+161,EC Kyiv,BLUEJAYS,Inferno,16,6
+162,Bad News Eagles,SINNERS,Vertigo,16,13
+163,Bad News Eagles,SINNERS,Mirage,16,14
+164,BIG EQUIPA,NAVI Javelins,Nuke,17,19
+165,BIG EQUIPA,NAVI Javelins,Inferno,16,19
+166,MIBR,Rare Atom,Inferno,7,16
+167,MIBR,Rare Atom,Overpass,29,31
+168,ex-MAD Lions,HEET,Dust2,14,16
+169,ex-MAD Lions,HEET,Nuke,16,7
+170,ex-MAD Lions,HEET,Ancient,2,16
+171,Sangal,B8,Ancient,16,9
+172,Sangal,B8,Vertigo,13,16
+173,Sangal,B8,Dust2,16,12
+174,MIBR fe,GODSENT fe,Dust2,16,2
+175,MIBR fe,GODSENT fe,Nuke,13,16
+176,MIBR fe,GODSENT fe,Overpass,16,10
+177,00NATION,FURIA,Ancient,16,11
+178,00NATION,FURIA,Vertigo,16,8
+179,The Union,Stars Horizon,Ancient,16,7
+180,The Union,Stars Horizon,Dust2,14,16
+181,The Union,Stars Horizon,Vertigo,15,19
+182,Rare Atom,HUMMER,Mirage,4,16
+183,Rare Atom,HUMMER,Nuke,16,9
+184,Rare Atom,HUMMER,Inferno,16,7
+185,Mindfreak,NAVI Javelins,Inferno,8,16
+186,Mindfreak,NAVI Javelins,Vertigo,8,16
+187,BIG Academy,Cryptova,Overpass,16,6
+188,BIG Academy,Cryptova,Dust2,16,7
+189,Iron Branch,B8,Nuke,7,16
+190,Iron Branch,B8,Inferno,4,16
+191,ARCTIC,B4,Dust2,16,12
+192,ARCTIC,B4,Ancient,16,13
+193,AGO,PACT,Ancient,12,16
+194,AGO,PACT,Inferno,16,9
+195,AGO,PACT,Vertigo,16,14
+196,MASONIC,Sangal,Inferno,17,19
+197,MASONIC,Sangal,Overpass,19,15
+198,MASONIC,Sangal,Dust2,3,16
+199,Complexity,SINNERS,Vertigo,16,13
+200,Complexity,SINNERS,Inferno,10,16
+201,Complexity,SINNERS,Overpass,12,16
+202,Outsiders,Sprout,Vertigo,16,8
+203,FURIA fe,CLG Red,Mirage,16,8
+204,Nigma Galaxy,BIG EQUIPA,Overpass,16,6
+205,MIBR,Movistar Riders,Nuke,3,16
+206,UNGENTIUM,FLET,Ancient,16,9
+207,UNGENTIUM,FLET,Mirage,16,7
+208,BLUEJAYS,Tricked,Mirage,16,7
+209,BLUEJAYS,Tricked,Overpass,8,16
+210,BLUEJAYS,Tricked,Vertigo,16,10
+211,FURIA,Sprout,Inferno,10,16
+212,Eternal Fire,ex-MAD Lions,Mirage,5,16
+213,Eternal Fire,ex-MAD Lions,Overpass,16,14
+214,Eternal Fire,ex-MAD Lions,Nuke,8,16
+215,GODSENT fe,CLG Red,Mirage,11,16
+216,00NATION,Outsiders,Inferno,11,16
+217,FURIA fe,MIBR fe,Mirage,16,11
+218,Into the Breach,EC Kyiv,Vertigo,8,16
+219,Into the Breach,EC Kyiv,Overpass,16,10
+220,Into the Breach,EC Kyiv,Inferno,16,19
+221,NAVI Javelins,BIG EQUIPA,Dust2,13,16
+222,HUMMER,Movistar Riders,Nuke,0,16
+223,MIBR,Rare Atom,Overpass,16,12
+224,Nigma Galaxy,Mindfreak,Inferno,16,6
+225,Luxe,Detonate,Mirage,16,5
+226,Luxe,Detonate,Overpass,14,16
+227,Luxe,Detonate,Vertigo,16,10
+228,Victorum,Northern Forces,Nuke,5,16
+229,Victorum,Northern Forces,Mirage,7,16
+230,BIG,FaZe,Dust2,16,13
+231,BIG,FaZe,Nuke,14,16
+232,BIG,FaZe,Mirage,19,17
+233,HEET,MASONIC,Overpass,11,16
+234,HEET,MASONIC,Ancient,16,12
+235,HEET,MASONIC,Nuke,22,20
+236,forZe,ECLOT,Inferno,14,16
+237,forZe,ECLOT,Dust2,16,9
+238,forZe,ECLOT,Mirage,16,6
+239,EC Kyiv,BLUEJAYS,Mirage,12,16
+240,EC Kyiv,BLUEJAYS,Inferno,8,16
+241,Apeks,SKADE,Mirage,16,14
+242,Apeks,SKADE,Overpass,16,12
+243,Bad News Eagles,Finest,Vertigo,13,16
+244,Bad News Eagles,Finest,Mirage,16,11
+245,Bad News Eagles,Finest,Inferno,16,5
+246,OneTap,KTRL,Nuke,16,2
+247,OneTap,KTRL,Vertigo,16,12
+248,fnatic,ex-MAD Lions,Mirage,16,19
+249,fnatic,ex-MAD Lions,Nuke,16,10
+250,fnatic,ex-MAD Lions,Ancient,8,16
+251,FaZe,Astralis,Overpass,13,16
+252,FaZe,Astralis,Mirage,16,11
+253,FaZe,Astralis,Dust2,16,7
+254,Nexus,KTRL,Inferno,14,16
+255,Nexus,KTRL,Ancient,16,13
+256,Nexus,KTRL,Nuke,16,19
+257,Nemiga,SKADE,Inferno,6,16
+258,Nemiga,SKADE,Overpass,13,16
+259,Finest,Enterprise,Inferno,16,11
+260,Finest,Enterprise,Dust2,16,13
+261,Bad News Eagles,ECSTATIC,Vertigo,16,10
+262,Bad News Eagles,ECSTATIC,Dust2,16,13
+263,BIG,Cloud9,Dust2,16,9
+264,BIG,Cloud9,Inferno,16,12
+265,UNGENTIUM,EC Kyiv,Vertigo,17,19
+266,UNGENTIUM,EC Kyiv,Dust2,6,16
+267,OneTap,KTRL,Vertigo,16,12
+268,OneTap,KTRL,Inferno,14,16
+269,OneTap,KTRL,Mirage,16,14
+270,Apeks,ex-MAD Lions,Mirage,16,7
+271,Apeks,ex-MAD Lions,Dust2,12,16
+272,Apeks,ex-MAD Lions,Nuke,9,16
+273,PACT,EC Kyiv,Ancient,14,16
+274,PACT,EC Kyiv,Dust2,8,16
+275,MASONIC,UNGENTIUM,Vertigo,19,16
+276,MASONIC,UNGENTIUM,Dust2,3,16
+277,MASONIC,UNGENTIUM,Ancient,16,8
+278,Philadelphia Liberty,Northern Forces,Inferno,4,16
+279,Philadelphia Liberty,Northern Forces,Nuke,10,16
+280,Detonate,Snakes Den,Mirage,16,9
+281,Detonate,Snakes Den,Dust2,16,7
+282,allStars,Nexus,Default,0,1
+283,allStars,Nexus,Nuke,12,16
+284,Into the Breach,UNGENTIUM,Vertigo,14,16
+285,Into the Breach,UNGENTIUM,Mirage,14,16
+286,SKADE,MASONIC,Nuke,13,16
+287,SKADE,MASONIC,Inferno,16,11
+288,SKADE,MASONIC,Dust2,22,25
+289,forZe,Astralis,Mirage,8,16
+290,forZe,Astralis,Nuke,19,22
+291,Nexus,KTRL,Mirage,18,22
+292,Nexus,KTRL,Inferno,18,22
+293,ECSTATIC,ex-MAD Lions,Ancient,16,8
+294,ECSTATIC,ex-MAD Lions,Dust2,9,16
+295,ECSTATIC,ex-MAD Lions,Nuke,10,16
+296,BIG Academy,FLET,Overpass,16,1
+297,BIG Academy,FLET,Nuke,7,16
+298,BIG Academy,FLET,Mirage,9,16
+299,VP.Prodigy,Apeks,Dust2,2,16
+300,VP.Prodigy,Apeks,Ancient,11,16
+301,ENCE,FaZe,Ancient,10,16
+302,ENCE,FaZe,Overpass,12,16
+303,OneTap,allStars,Overpass,16,8
+304,OneTap,allStars,Ancient,12,16
+305,OneTap,allStars,Dust2,16,12
+306,fnatic,Bad News Eagles,Nuke,16,8
+307,fnatic,Bad News Eagles,Ancient,16,12
+308,ECSTATIC,SINNERS,Overpass,20,22
+309,ECSTATIC,SINNERS,Vertigo,14,16
+310,EC Kyiv,UNGENTIUM,Vertigo,17,19
+311,EC Kyiv,UNGENTIUM,Inferno,16,10
+312,EC Kyiv,UNGENTIUM,Mirage,12,16
+313,PACT,MASONIC,Vertigo,14,16
+314,PACT,MASONIC,Ancient,16,19
+315,Luxe,Davenport University,Vertigo,16,7
+316,Luxe,Davenport University,Overpass,14,16
+317,Luxe,Davenport University,Nuke,8,16
+318,ONET4P,Victorum,Overpass,16,4
+319,ONET4P,Victorum,Inferno,16,10
+320,BLUEJAYS,BIG Academy,Mirage,14,16
+321,BLUEJAYS,BIG Academy,Dust2,16,13
+322,BLUEJAYS,BIG Academy,Vertigo,16,6
+323,Cloud9,9z,Mirage,16,13
+324,Cloud9,9z,Dust2,10,16
+325,Cloud9,9z,Overpass,16,14
+326,eSuba,ECLOT,Dust2,3,16
+327,eSuba,ECLOT,Vertigo,13,16
+328,Bad News Eagles,forZe,Nuke,16,9
+329,Bad News Eagles,forZe,Mirage,12,16
+330,Bad News Eagles,forZe,Inferno,16,11
+331,Into the Breach,EC Kyiv,Overpass,17,19
+332,Into the Breach,EC Kyiv,Vertigo,14,16
+333,SKADE,AVANGAR,Inferno,16,14
+334,SKADE,AVANGAR,Mirage,16,12
+335,NAVI Junior,ONYX,Overpass,9,16
+336,NAVI Junior,ONYX,Mirage,5,16
+337,UNGENTIUM,B8,Vertigo,16,9
+338,UNGENTIUM,B8,Dust2,13,16
+339,UNGENTIUM,B8,Ancient,16,5
+340,BIG,Eternal Fire,Overpass,16,10
+341,BIG,Eternal Fire,Dust2,16,19
+342,BIG,Eternal Fire,Nuke,16,7
+343,Illuminar,Sangal,Dust2,5,16
+344,Illuminar,Sangal,Overpass,16,14
+345,Illuminar,Sangal,Ancient,6,16
+346,ex-MAD Lions,MOUZ NXT,Dust2,16,10
+347,ex-MAD Lions,MOUZ NXT,Mirage,16,10
+348,Rare Atom,IHC,Default,1,0
+349,Rare Atom,IHC,Ancient,0,16
+350,Rare Atom,IHC,Mirage,16,13
+351,Rare Atom,IHC,Overpass,16,11
+352,Sangal,HONORIS,Ancient,16,13
+353,Sangal,HONORIS,Vertigo,16,5
+354,paiN,ATK,Default,1,0
+355,paiN,ATK,Dust2,19,16
+356,paiN,ATK,Inferno,16,9
+357,Rehl,Los Grandes,Overpass,16,9
+358,Rehl,Los Grandes,Inferno,14,16
+359,Rehl,Los Grandes,Dust2,16,11
+360,LGG Snakes Den,Aiming is Difficult,Ancient,16,14
+361,LGG Snakes Den,Aiming is Difficult,Overpass,16,10
+362,CLG Red,Sacrifice,Inferno,16,8
+363,CLG Red,Sacrifice,Mirage,16,14
+364,Stanley's Harem,Stuck in Iceland,Vertigo,16,3
+365,Stanley's Harem,Stuck in Iceland,Inferno,16,6
+366,ex-Black Dragons fe,Quem Sao Elas,Mirage,19,16
+367,ex-Black Dragons fe,Quem Sao Elas,Dust2,16,14
+368,MASONIC,FLET,Overpass,13,16
+369,MASONIC,FLET,Dust2,17,19
+370,1PIN,Apeks,Ancient,16,13
+371,1PIN,Apeks,Mirage,8,16
+372,1PIN,Apeks,Overpass,9,16
+373,Stuck in Iceland,Aiming is Difficult,Dust2,11,16
+374,Stuck in Iceland,Aiming is Difficult,Inferno,4,16
+375,9z,FURIA,Overpass,11,16
+376,9z,FURIA,Ancient,16,4
+377,9z,FURIA,Mirage,19,17
+378,Daotsu,B4,Mirage,11,16
+379,Daotsu,B4,Dust2,16,13
+380,Daotsu,B4,Nuke,1,16
+381,MOUZ,Eternal Fire,Nuke,16,2
+382,MOUZ,Eternal Fire,Mirage,12,16
+383,MOUZ,Eternal Fire,Inferno,13,16
+384,KJlACCHblE,OG Academy,Mirage,16,10
+385,KJlACCHblE,OG Academy,Ancient,16,8
+386,Stars Horizon,MIBR Academy,Nuke,16,14
+387,Stars Horizon,MIBR Academy,Vertigo,16,14
+388,ONYX,BEE,Vertigo,16,9
+389,ONYX,BEE,Inferno,6,16
+390,ONYX,BEE,Mirage,16,7
+391,ONYX,BEE,Overpass,16,5
+392,Nemiga,ECLOT,Mirage,10,16
+393,Nemiga,ECLOT,Inferno,16,12
+394,Nemiga,ECLOT,Overpass,6,16
+395,Falcons,1WIN,Default,1,0
+396,Falcons,1WIN,Vertigo,16,10
+397,Falcons,1WIN,Nuke,16,10
+398,LGG Snakes Den,Stanley's Harem,Nuke,16,9
+399,LGG Snakes Den,Stanley's Harem,Overpass,16,8
+400,BIG Academy,MOUZ NXT,Nuke,6,16
+401,BIG Academy,MOUZ NXT,Dust2,13,16
+402,k1ck,OG Academy,Dust2,10,16
+403,k1ck,OG Academy,Ancient,16,12
+404,k1ck,OG Academy,Inferno,12,16
+405,MostValuablePlayers,Copenhagen Flames fe,Inferno,8,16
+406,MostValuablePlayers,Copenhagen Flames fe,Vertigo,16,12
+407,MostValuablePlayers,Copenhagen Flames fe,Mirage,16,9
+408,Illuminar,KJlACCHblE,Mirage,20,22
+409,Illuminar,KJlACCHblE,Overpass,10,16
+410,FaZe,OG,Ancient,11,16
+411,FaZe,OG,Mirage,16,9
+412,FaZe,OG,Overpass,16,13
+413,Astralis,Complexity,Inferno,16,5
+414,Astralis,Complexity,Overpass,11,16
+415,Astralis,Complexity,Nuke,16,9
+416,MOUZ NXT,FURIA Academy,Mirage,16,9
+417,MOUZ NXT,FURIA Academy,Inferno,16,6
+418,SINNERS,Enterprise,Mirage,16,11
+419,SINNERS,Enterprise,Overpass,16,8
+420,IHC,ARAVT,Nuke,16,8
+421,IHC,ARAVT,Dust2,16,12
+422,Illuminar,Into the Breach,Default,0,1
+423,HONORIS,Into the Breach,Vertigo,11,16
+424,HONORIS,Into the Breach,Overpass,7,16
+425,Sangal,Illuminar,Ancient,5,16
+426,Sangal,Illuminar,Mirage,16,9
+427,Sangal,Illuminar,Vertigo,4,16
+428,ARAVT,NKT,Vertigo,16,9
+429,ARAVT,NKT,Inferno,16,14
+430,ATK,Gaimin Gladiators,Inferno,16,3
+431,ATK,Gaimin Gladiators,Overpass,16,13
+432,MIBR Academy,SWS,Inferno,16,14
+433,MIBR Academy,SWS,Mirage,7,16
+434,MIBR Academy,SWS,Nuke,16,14
+435,Gaimin Gladiators,EG.CD,Mirage,16,10
+436,Gaimin Gladiators,EG.CD,Inferno,16,11
+437,Daotsu,Boca Juniors,Nuke,19,15
+438,Daotsu,Boca Juniors,Mirage,16,14
+439,Eternal Fire,Imperial,Nuke,7,16
+440,Eternal Fire,Imperial,Mirage,25,23
+441,Eternal Fire,Imperial,Vertigo,16,13
+442,fnatic,MOUZ NXT,Mirage,10,16
+443,fnatic,MOUZ NXT,Inferno,16,11
+444,fnatic,MOUZ NXT,Nuke,16,14
+445,Stone,B4,Nuke,6,16
+446,Stone,B4,Ancient,0,16
+447,Los Grandes,Meta BR,Inferno,17,19
+448,1WIN,Movistar Riders,Vertigo,16,14
+449,1WIN,Movistar Riders,Mirage,16,11
+450,Outsiders,FURIA,Inferno,6,16
+451,Outsiders,FURIA,Vertigo,10,16
+452,Stars Horizon,The Union,Vertigo,6,16
+453,Rehl,Redragon,Overpass,5,16
+454,BIG Academy,FURIA Academy,Dust2,16,3
+455,BIG Academy,FURIA Academy,Overpass,16,1
+456,forZe,Enterprise,Nuke,16,11
+457,forZe,Enterprise,Inferno,16,14
+458,Anonymo,B8,Dust2,16,19
+459,Anonymo,B8,Nuke,9,16
+460,fnatic Rising,MOUZ NXT,Inferno,13,16
+461,fnatic Rising,MOUZ NXT,Dust2,16,19
+462,Entropiq,OG,Ancient,7,16
+463,Entropiq,OG,Dust2,12,16
+464,SAW,Movistar Riders,Ancient,9,16
+465,SAW,Movistar Riders,Overpass,8,16
+466,IHC,Rare Atom,Overpass,8,16
+467,IHC,Rare Atom,Inferno,23,25
+468,ARAVT,CatEvil,Inferno,16,11
+469,ARAVT,CatEvil,Nuke,16,12
+470,NKT,OS,Inferno,16,8
+471,NKT,OS,Vertigo,16,10
+472,Nexus,B8,Inferno,16,11
+473,Nexus,B8,Nuke,8,16
+474,Nexus,B8,Vertigo,6,16
+475,Philadelphia Liberty,X13,Nuke,16,7
+476,Philadelphia Liberty,X13,Mirage,15,19
+477,Philadelphia Liberty,X13,Inferno,16,10
+478,paiN,ATK,Ancient,16,11
+479,paiN,ATK,Dust2,22,20
+480,Gaimin Gladiators,Mythic,Overpass,22,18
+481,Gaimin Gladiators,Mythic,Ancient,16,9
+482,EG.CD,BHOP,Inferno,16,5
+483,EG.CD,BHOP,Overpass,16,14
+484,B4,Isurus,Nuke,16,13
+485,B4,Isurus,Mirage,16,14
+486,Players,Stone,Dust2,3,16
+487,Players,Stone,Overpass,6,16
+488,Cryptova,Entropiq Prague,Mirage,16,12
+489,Cryptova,Entropiq Prague,Overpass,5,16
+490,Cryptova,Entropiq Prague,Inferno,16,14
+491,Honved,BEE,Mirage,12,16
+492,Honved,BEE,Overpass,16,14
+493,Honved,BEE,Dust2,16,10
+494,Honved,BEE,Inferno,13,16
+495,Honved,BEE,Nuke,13,16
+496,Complexity,Movistar Riders,Default,1,0
+497,SAW,Sprout,Inferno,17,19
+498,SAW,Sprout,Ancient,16,12
+499,SAW,Sprout,Vertigo,16,14
+500,Daotsu,Los Grandes,Dust2,2,16
+501,Meta BR,Boca Juniors,Inferno,16,1
+502,Entropiq,Movistar Riders,Overpass,16,13
+503,Entropiq,Movistar Riders,Vertigo,9,16
+504,Entropiq,Movistar Riders,Ancient,9,16
+505,1WIN,Falcons,Vertigo,16,14
+506,1WIN,Falcons,Nuke,9,16
+507,1WIN,Falcons,Dust2,8,16
+508,ENCE,MOUZ,Mirage,13,16
+509,ENCE,MOUZ,Nuke,16,8
+510,ENCE,MOUZ,Overpass,16,4
+511,Rehl,MIBR Academy,Overpass,16,13
+512,Anonymo,Tricked,Nuke,17,19
+513,Anonymo,Tricked,Mirage,16,11
+514,Anonymo,Tricked,Overpass,12,16
+515,SWS,Redragon,Dust2,14,16
+516,forZe,9z,Mirage,16,14
+517,forZe,9z,Dust2,16,9
+518,Enterprise,Finest,Dust2,11,16
+519,Enterprise,Finest,Inferno,16,14
+520,Enterprise,Finest,Mirage,16,5
+521,ARCTIC,Stars Horizon,Ancient,16,10
+522,The Union,UNO MILLE,Mirage,9,16
+523,MOUZ NXT,FURIA Academy,Inferno,10,16
+524,MOUZ NXT,FURIA Academy,Nuke,9,16
+525,AGO,1DayHeroes,Mirage,16,4
+526,AGO,1DayHeroes,Dust2,16,10
+527,UNGENTIUM,GTZ Bulls,Dust2,16,5
+528,UNGENTIUM,GTZ Bulls,Vertigo,16,8
+529,BIG,FaZe,Dust2,16,14
+530,BIG,FaZe,Nuke,11,16
+531,BIG,FaZe,Overpass,16,12
+532,Tricked,B8,Overpass,16,19
+533,Tricked,B8,Nuke,16,6
+534,Tricked,B8,Vertigo,16,12
+535,BIG Academy,fnatic Rising,Vertigo,16,13
+536,BIG Academy,fnatic Rising,Mirage,16,9
+537,IHC,NKT,Inferno,16,12
+538,IHC,NKT,Nuke,8,16
+539,IHC,NKT,Dust2,16,10
+540,Cloud9,Astralis,Overpass,16,7
+541,Cloud9,Astralis,Mirage,16,7
+542,forZe,SINNERS,Overpass,16,7
+543,forZe,SINNERS,Nuke,16,4
+544,CatEvil,NEXGA,Nuke,16,11
+545,CatEvil,NEXGA,Inferno,16,9
+546,ARAVT,Rare Atom,Ancient,8,16
+547,ARAVT,Rare Atom,Vertigo,4,16
+548,OS,Born in Mongolia,Default,1,0
+549,Nexus,Anonymo,Vertigo,14,16
+550,Nexus,Anonymo,Ancient,16,5
+551,Nexus,Anonymo,Nuke,12,16
+552,ATK,Gaimin Gladiators,Inferno,16,14
+553,ATK,Gaimin Gladiators,Mirage,17,19
+554,ATK,Gaimin Gladiators,Ancient,16,13
+555,Snakes Den,Counter Nature,Overpass,16,10
+556,Snakes Den,Counter Nature,Mirage,16,13
+557,Mythic,Brazen,Inferno,16,5
+558,Mythic,Brazen,Mirage,12,16
+559,Mythic,Brazen,Overpass,16,13
+560,BHOP,Strife,Inferno,16,9
+561,BHOP,Strife,Nuke,9,16
+562,BHOP,Strife,Overpass,16,9
+563,Northern Forces,Take Flyte,Nuke,16,12
+564,Northern Forces,Take Flyte,Vertigo,16,6
+565,Vexo Purple,Detonate,Inferno,8,16
+566,Vexo Purple,Detonate,Mirage,14,16
+567,paiN,EG.CD,Overpass,16,5
+568,paiN,EG.CD,Nuke,16,7
+569,B4,Boca Juniors,Vertigo,12,16
+570,Redragon,Isurus,Overpass,16,12
+571,Players,Meta BR,Nuke,16,19
+572,Los Grandes,Stone,Overpass,16,7
+573,The Union,SWS,Inferno,16,8
+574,MIBR Academy,UNO MILLE,Nuke,13,16
+575,FLET,Iron Branch,Dust2,3,16
+576,FLET,Iron Branch,Mirage,16,12
+577,FLET,Iron Branch,Nuke,16,7
+578,FTW,1PIN,Ancient,17,19
+579,FTW,1PIN,Vertigo,16,14
+580,FTW,1PIN,Inferno,9,16
+581,ONYX,Illes Spirit,Mirage,16,7
+582,ONYX,Illes Spirit,Nuke,16,19
+583,ONYX,Illes Spirit,Vertigo,12,16
+584,ONYX,Illes Spirit,Overpass,16,7
+585,ONYX,Illes Spirit,Inferno,16,10
+586,Movistar Riders,Falcons,Inferno,13,16
+587,Movistar Riders,Falcons,Mirage,16,14
+588,Movistar Riders,Falcons,Overpass,17,19
+589,Daotsu,ARCTIC,Overpass,14,16
+590,Enterprise,MOUZ NXT,Inferno,19,15
+591,Enterprise,MOUZ NXT,Nuke,8,16
+592,Enterprise,MOUZ NXT,Mirage,2,16
+593,Sprout,SINNERS,Inferno,16,12
+594,Sprout,SINNERS,Overpass,11,16
+595,Sprout,SINNERS,Vertigo,16,5
+596,Rehl,Stars Horizon,Overpass,5,16
+597,SKADE,ROYALS,Dust2,16,11
+598,SKADE,ROYALS,Mirage,12,16
+599,SKADE,ROYALS,Overpass,16,14
+600,Apeks,Tricked,Nuke,16,12
+601,Apeks,Tricked,Mirage,16,7
+602,FURIA,9z,Overpass,20,22
+603,FURIA,9z,Inferno,10,16
+604,VP.Prodigy,forZe,Ancient,16,10
+605,VP.Prodigy,forZe,Dust2,9,16
+606,VP.Prodigy,forZe,Nuke,3,16
+607,HEET,Entropiq,Overpass,12,16
+608,HEET,Entropiq,Vertigo,7,16
+609,Imperial,MOUZ,Nuke,11,16
+610,Imperial,MOUZ,Inferno,7,16
+611,SAW,1WIN,Dust2,5,16
+612,SAW,1WIN,Nuke,9,16
+613,B8,Entropiq Prague,Inferno,16,11
+614,B8,Entropiq Prague,Nuke,16,9
+615,Anonymo,AVANGAR,Mirage,14,16
+616,Anonymo,AVANGAR,Dust2,26,28
+617,SINNERS,fnatic,Mirage,3,16
+618,SINNERS,fnatic,Vertigo,16,11
+619,SINNERS,fnatic,Overpass,11,16
+620,ENCE,Eternal Fire,Dust2,19,17
+621,ENCE,Eternal Fire,Nuke,10,16
+622,ENCE,Eternal Fire,Vertigo,16,11
+623,Outsiders,forZe,Dust2,16,6
+624,Outsiders,forZe,Inferno,13,16
+625,Outsiders,forZe,Ancient,12,16
+626,EC Brugge,BLUEJAYS,Vertigo,10,16
+627,EC Brugge,BLUEJAYS,Mirage,12,16
+628,FTW,BIG Academy,Nuke,16,14
+629,FTW,BIG Academy,Dust2,3,16
+630,FTW,BIG Academy,Vertigo,5,16
+631,Wolsung,MASONIC,Dust2,19,17
+632,Wolsung,MASONIC,Nuke,5,16
+633,Wolsung,MASONIC,Ancient,4,16
+634,NEXGA,NKT,Nuke,12,16
+635,NEXGA,NKT,Inferno,11,16
+636,ARAVT,OS,Ancient,16,13
+637,ARAVT,OS,Inferno,16,10
+638,IHC,CatEvil,Inferno,16,12
+639,IHC,CatEvil,Dust2,16,9
+640,Born in Mongolia,Rare Atom,Vertigo,8,16
+641,Born in Mongolia,Rare Atom,Nuke,4,16
+642,777,BLUEJAYS,Overpass,9,16
+643,777,BLUEJAYS,Mirage,17,19
+644,Astralis,Movistar Riders,Mirage,16,14
+645,Astralis,Movistar Riders,Overpass,16,8
+646,Luxe,Northern Forces,Nuke,16,14
+647,Luxe,Northern Forces,Mirage,12,16
+648,Luxe,Northern Forces,Overpass,16,14
+649,Gaimin Gladiators,Strife,Nuke,16,13
+650,Gaimin Gladiators,Strife,Mirage,16,19
+651,Gaimin Gladiators,Strife,Inferno,16,13
+652,Brazen,EG.CD,Mirage,16,10
+653,Brazen,EG.CD,Overpass,7,16
+654,Brazen,EG.CD,Dust2,4,16
+655,Vexo Purple,Victorum,Nuke,6,16
+656,Vexo Purple,Victorum,Inferno,9,16
+657,paiN,Mythic,Vertigo,16,8
+658,paiN,Mythic,Dust2,16,4
+659,ATK,BHOP,Vertigo,16,7
+660,ATK,BHOP,Dust2,16,6
+661,ARCTIC,Redragon,Dust2,16,11
+662,Rehl,Boca Juniors,Mirage,16,3
+663,Stars Horizon,B4,Overpass,16,8
+664,Los Grandes,SWS,Dust2,14,16
+665,Meta BR,MIBR Academy,Mirage,12,16
+666,The Union,Stone,Dust2,16,13
+667,UNO MILLE,Players,Overpass,16,13
+668,Daotsu,Isurus,Dust2,16,10
+669,ECLOT,Budapest Five,Inferno,16,5
+670,ECLOT,Budapest Five,Mirage,16,1
+671,Entropiq,1WIN,Dust2,16,4
+672,Entropiq,1WIN,Ancient,8,16
+673,Entropiq,1WIN,Vertigo,5,16
+674,HEET,SAW,Ancient,14,16
+675,HEET,SAW,Nuke,17,19
+676,Cloud9,Complexity,Inferno,19,16
+677,Cloud9,Complexity,Dust2,16,7
+678,forZe,Imperial,Dust2,22,18
+679,forZe,Imperial,Mirage,16,7
+680,FaZe,OG,Dust2,16,8
+681,FaZe,OG,Overpass,16,14
+682,Movistar Riders,Sprout,Vertigo,16,10
+683,Movistar Riders,Sprout,Nuke,16,9
+684,Falcons,SINNERS,Mirage,16,13
+685,Falcons,SINNERS,Dust2,16,2
+686,ALTERNATE aTTaX,ONYX,Overpass,14,16
+687,ALTERNATE aTTaX,ONYX,Mirage,7,16
+688,Into the Breach,Finest,Vertigo,8,16
+689,Into the Breach,Finest,Overpass,5,16
+690,BIG,Entropiq,Overpass,11,16
+691,BIG,Entropiq,Dust2,16,10
+692,BIG,Entropiq,Mirage,16,13
+693,ARAVT,IHC,Dust2,10,16
+694,ARAVT,IHC,Ancient,11,16
+695,Iron Branch,EC Brugge,Vertigo,16,14
+696,Iron Branch,EC Brugge,Dust2,16,10
+697,EC Brugge,BLUEJAYS,Vertigo,16,3
+698,EC Brugge,BLUEJAYS,Inferno,16,9
+699,777,Iron Branch,Mirage,14,16
+700,777,Iron Branch,Overpass,16,5
+701,777,Iron Branch,Dust2,10,16
+702,TheMongolz,IHC,Inferno,10,16
+703,TheMongolz,IHC,Mirage,3,16
+704,Philadelphia Liberty,Davenport University,Dust2,16,13
+705,Philadelphia Liberty,Davenport University,Vertigo,9,16
+706,Philadelphia Liberty,Davenport University,Inferno,16,19
+707,ONET4P,Snakes Den,Dust2,3,16
+708,ONET4P,Snakes Den,Vertigo,16,2
+709,ONET4P,Snakes Den,Inferno,16,9
+710,Coalesce,ROYALS,Inferno,13,16
+711,Coalesce,ROYALS,Overpass,16,5
+712,Coalesce,ROYALS,Dust2,14,16
+713,Finest,SINNERS,Mirage,7,16
+714,Finest,SINNERS,Ancient,19,22
+715,GTZ Bulls,OFFSET,Mirage,13,16
+716,GTZ Bulls,OFFSET,Vertigo,16,9
+717,GTZ Bulls,OFFSET,Dust2,22,19
+718,EC Kyiv,SKADE,Dust2,17,19
+719,EC Kyiv,SKADE,Mirage,16,5
+720,EC Kyiv,SKADE,Inferno,16,11
+721,Tricked,LDLC,Overpass,16,13
+722,Tricked,LDLC,Vertigo,16,10
+723,BLUEJAYS,Apeks,Mirage,16,6
+724,BLUEJAYS,Apeks,Overpass,14,16
+725,BLUEJAYS,Apeks,Dust2,16,7
+726,fnatic,Into the Breach,Nuke,16,6
+727,fnatic,Into the Breach,Mirage,16,7
+728,Entropiq Prague,ECLOT,Overpass,16,14
+729,Entropiq Prague,ECLOT,Inferno,3,16
+730,Entropiq Prague,ECLOT,Mirage,16,13
+731,Imperial,Enterprise,Mirage,9,16
+732,Imperial,Enterprise,Inferno,16,7
+733,Imperial,Enterprise,Overpass,20,22
+734,MASONIC,BLINK,Inferno,16,14
+735,MASONIC,BLINK,Overpass,16,3
+736,eSuba,Dark Tigers,Dust2,16,9
+737,eSuba,Dark Tigers,Nuke,19,17
+738,Illuminar,FTW,Nuke,9,16
+739,Illuminar,FTW,Overpass,16,5
+740,Illuminar,FTW,Vertigo,12,16
+741,1PIN,EYEBALLERS,Ancient,16,6
+742,1PIN,EYEBALLERS,Inferno,12,16
+743,1PIN,EYEBALLERS,Mirage,16,2
+744,Anonymo,Into the Breach,Overpass,10,16
+745,Anonymo,Into the Breach,Ancient,16,11
+746,Anonymo,Into the Breach,Nuke,12,16
+747,Impression,Entropiq Prague,Mirage,11,16
+748,Impression,Entropiq Prague,Nuke,14,16
+749,B8,Nemiga,Nuke,16,13
+750,B8,Nemiga,Inferno,8,16
+751,B8,Nemiga,Dust2,14,16
+752,FLET,VP.Prodigy,Vertigo,16,13
+753,FLET,VP.Prodigy,Nuke,8,16
+754,FLET,VP.Prodigy,Ancient,7,16
+755,NLG,AVANGAR,Default,0,1
+756,Iron Branch,Nexus,Vertigo,16,14
+757,Iron Branch,Nexus,Dust2,16,9
+758,forZe,MOUZ NXT,Dust2,19,15
+759,forZe,MOUZ NXT,Mirage,21,25
+760,forZe,MOUZ NXT,Nuke,17,19
+761,PACT,Narcis,Inferno,9,16
+762,PACT,Narcis,Vertigo,16,5
+763,PACT,Narcis,Ancient,16,5
+764,ECLOT,UNGENTIUM,Vertigo,16,9
+765,ECLOT,UNGENTIUM,Mirage,16,7
+766,Falcons,HEET,Dust2,16,13
+767,Falcons,HEET,Nuke,10,16
+768,Falcons,HEET,Vertigo,4,16
+769,Axolotls,Davenport University,Overpass,16,8
+770,Axolotls,Davenport University,Vertigo,2,16
+771,Axolotls,Davenport University,Dust2,16,3
+772,Vexo Purple,Bad News Bears,Inferno,14,16
+773,Vexo Purple,Bad News Bears,Nuke,14,16
+774,Davenport University,Bad News Bears,Overpass,22,20
+775,Davenport University,Bad News Bears,Nuke,19,17
+776,Black Dragons fe,Quem Sao Elas,Mirage,14,16
+777,Black Dragons fe,Quem Sao Elas,Nuke,16,9
+778,Black Dragons fe,Quem Sao Elas,Inferno,16,3
+779,Vexo Purple,Axolotls,Dust2,5,16
+780,Vexo Purple,Axolotls,Ancient,15,19
+781,CloudRunners,PIVNOE PUZO,Vertigo,16,3
+782,CloudRunners,PIVNOE PUZO,Inferno,16,6
+783,Axolotls,Tempest,Inferno,16,14
+784,Axolotls,Tempest,Vertigo,16,6
+785,BLINK,BLUEJAYS,Inferno,7,16
+786,BLINK,BLUEJAYS,Dust2,7,16
+787,Bad News Bears,Red Wolves,Dust2,14,16
+788,Bad News Bears,Red Wolves,Nuke,16,5
+789,Bad News Bears,Red Wolves,Mirage,16,3
+790,Grillska Orebro,LBS Helsingborg,Overpass,11,16
+791,Grillska Orebro,LBS Helsingborg,Vertigo,10,16
+792,FTW,ORDER,Nuke,16,12
+793,FTW,ORDER,Dust2,16,1
+794,Davenport University,Northern Forces,Overpass,16,12
+795,Davenport University,Northern Forces,Inferno,16,14
+796,Natus Vincere,Vitality,Mirage,16,8
+797,Natus Vincere,Vitality,Overpass,16,5
+798,Vexo Purple,Cyberstorm,Nuke,16,9
+799,Vexo Purple,Cyberstorm,Inferno,16,8
+800,0to100,Zero Tenacity,Nuke,16,13
+801,forZe,Wolsung,Inferno,16,12
+802,forZe,Wolsung,Nuke,16,12
+803,HEET,HUMMER,Inferno,22,19
+804,HEET,HUMMER,Dust2,16,11
+805,Portugal,BLAST Dream Team,Tuscan,15,15
+806,Frida Gymnasiet,LBS Helsingborg,Ancient,6,16
+807,Frida Gymnasiet,LBS Helsingborg,Vertigo,8,16
+808,cowana,Falcons,Inferno,6,16
+809,cowana,Falcons,Dust2,10,16
+810,ECLOT,Enterprise,Overpass,16,14
+811,ECLOT,Enterprise,Inferno,14,16
+812,ECLOT,Enterprise,Ancient,12,16
+813,G2,Vitality,Dust2,13,16
+814,G2,Vitality,Inferno,16,8
+815,G2,Vitality,Nuke,13,16
+816,BLUEJAYS,Zero Tenacity,Inferno,16,10
+817,BLUEJAYS,Zero Tenacity,Mirage,16,4
+818,Illuminar,TYLOO,Mirage,16,2
+819,Illuminar,TYLOO,Overpass,16,3
+820,SINNERS,Entropiq Prague,Mirage,13,16
+821,SINNERS,Entropiq Prague,Overpass,16,10
+822,SINNERS,Entropiq Prague,Vertigo,16,2
+823,OG,Natus Vincere,Dust2,9,16
+824,OG,Natus Vincere,Inferno,16,14
+825,OG,Natus Vincere,Mirage,10,16
+826,BLINK,0to100,Dust2,16,8
+827,BLINK,0to100,Inferno,16,10
+828,Grillska Orebro,GO HogRiders,Inferno,16,11
+829,Grillska Orebro,GO HogRiders,Vertigo,16,7
+830,Outsiders,Falcons,Vertigo,16,6
+831,Outsiders,Falcons,Inferno,16,10
+832,Eternal Fire,HUMMER,Dust2,16,7
+833,Eternal Fire,HUMMER,Overpass,19,16
+834,FURIA fe,Black Dragons fe,Dust2,19,16
+835,FURIA fe,Black Dragons fe,Nuke,16,5
+836,MIBR,TYLOO,Mirage,16,12
+837,MIBR,TYLOO,Dust2,22,20
+838,MASONIC,BLUEJAYS,Dust2,9,16
+839,MASONIC,BLUEJAYS,Overpass,14,16
+840,ORDER,Endpoint,Dust2,14,16
+841,ORDER,Endpoint,Mirage,5,16
+842,Vitality,ENCE,Overpass,16,10
+843,Vitality,ENCE,Nuke,19,17
+844,VP.Prodigy,EYEBALLERS,Vertigo,19,17
+845,VP.Prodigy,EYEBALLERS,Inferno,19,17
+846,FTW,Sprout,Inferno,1,16
+847,FTW,Sprout,Ancient,16,5
+848,FTW,Sprout,Vertigo,22,20
+849,UNGENTIUM,AVANGAR,Vertigo,16,13
+850,UNGENTIUM,AVANGAR,Mirage,8,16
+851,UNGENTIUM,AVANGAR,Nuke,16,11
+852,FaZe,Natus Vincere,Dust2,6,16
+853,FaZe,Natus Vincere,Inferno,1,16
+854,Illuminar,VERTEX,Mirage,16,11
+855,Illuminar,VERTEX,Nuke,16,7
+856,Nexus,BIG Academy,Vertigo,16,19
+857,Nexus,BIG Academy,Dust2,9,16
+858,cowana,Strife,Overpass,16,9
+859,cowana,Strife,Inferno,16,10
+860,Encore,HEET,Nuke,11,16
+861,Encore,HEET,Ancient,10,16
+862,Enterprise,Cryptova,Overpass,16,7
+863,Enterprise,Cryptova,Mirage,13,16
+864,Enterprise,Cryptova,Inferno,16,12
+865,EC Kyiv,Impression,Vertigo,10,16
+866,EC Kyiv,Impression,Overpass,16,10
+867,EC Kyiv,Impression,Inferno,16,9
+868,Entropiq Prague,SKADE,Mirage,10,16
+869,Entropiq Prague,SKADE,Inferno,17,19
+870,FLET,1PIN,Vertigo,16,14
+871,FLET,1PIN,Ancient,4,16
+872,FLET,1PIN,Dust2,16,6
+873,forZe,Tricked,Nuke,16,9
+874,forZe,Tricked,Mirage,16,14
+875,OFFSET,Into the Breach,Nuke,13,16
+876,OFFSET,Into the Breach,Overpass,7,16
+877,OG,ENCE,Dust2,16,13
+878,OG,ENCE,Vertigo,16,9
+879,VERTEX,Falcons,Nuke,5,16
+880,VERTEX,Falcons,Inferno,7,16
+881,Outsiders,Illuminar,Mirage,16,7
+882,Outsiders,Illuminar,Dust2,16,8
+883,ROYALS,Nemiga,Overpass,16,19
+884,ROYALS,Nemiga,Inferno,8,16
+885,B8,Coalesce,Inferno,13,16
+886,B8,Coalesce,Vertigo,16,3
+887,B8,Coalesce,Dust2,16,14
+888,eSuba,Entropiq Prague,Inferno,12,16
+889,eSuba,Entropiq Prague,Nuke,16,14
+890,eSuba,Entropiq Prague,Vertigo,13,16
+891,Natus Vincere,BIG,Mirage,16,10
+892,Natus Vincere,BIG,Dust2,16,8
+893,Anonymo,GTZ Bulls,Ancient,16,8
+894,Anonymo,GTZ Bulls,Overpass,16,6
+895,Sprout,HUMMER,Dust2,7,16
+896,Sprout,HUMMER,Nuke,16,14
+897,Sprout,HUMMER,Ancient,14,16
+898,ex-MAD Lions,BLUEJAYS,Inferno,16,3
+899,ex-MAD Lions,BLUEJAYS,Ancient,16,4
+900,Wolsung,LDLC,Dust2,16,7
+901,Wolsung,LDLC,Nuke,16,14
+902,Endpoint,HEET,Overpass,16,12
+903,Endpoint,HEET,Dust2,16,14
+904,Eternal Fire,FTW,Vertigo,16,7
+905,Eternal Fire,FTW,Overpass,16,9
+906,Apeks,BLINK,Overpass,16,5
+907,Apeks,BLINK,Inferno,16,1
+908,SINNERS,EC Kyiv,Inferno,16,14
+909,SINNERS,EC Kyiv,Overpass,16,12
+910,FaZe,G2,Inferno,16,7
+911,FaZe,G2,Ancient,13,16
+912,FaZe,G2,Dust2,5,16
+913,MIBR,cowana,Ancient,16,11
+914,MIBR,cowana,Overpass,16,9
+915,TYLOO,Strife,Overpass,16,12
+916,TYLOO,Strife,Mirage,16,10
+917,Encore,ORDER,Ancient,3,16
+918,Encore,ORDER,Inferno,8,16
+919,MASONIC,Tricked,Vertigo,16,13
+920,MASONIC,Tricked,Ancient,16,11
+921,paiN,Vitality,Nuke,3,16
+922,paiN,Vitality,Dust2,16,12
+923,paiN,Vitality,Overpass,4,16
+924,ENCE,BIG,Mirage,19,16
+925,ENCE,BIG,Nuke,16,13
+926,FTW,Iron Branch,Dust2,9,16
+927,FTW,Iron Branch,Vertigo,16,10
+928,FTW,Iron Branch,Nuke,16,10
+929,Natus Vincere,OG,Inferno,16,7
+930,Natus Vincere,OG,Mirage,12,16
+931,Natus Vincere,OG,Ancient,13,16
+932,Finest,Tricked,Overpass,16,11
+933,Finest,Tricked,Mirage,16,13
+934,ECLOT,NLG,Default,1,0
+935,Enterprise,ex-MAD Lions,Mirage,16,11
+936,Enterprise,ex-MAD Lions,Ancient,16,14
+937,G2,Vitality,Dust2,10,16
+938,G2,Vitality,Inferno,16,8
+939,G2,Vitality,Mirage,16,9
+940,FaZe,paiN,Ancient,16,7
+941,FaZe,paiN,Inferno,16,6
+942,Apeks,BLUEJAYS,Dust2,16,9
+943,Apeks,BLUEJAYS,Inferno,16,14
+944,SINNERS,KOVA,Overpass,16,11
+945,SINNERS,KOVA,Ancient,16,6
+946,EC Kyiv,AGO,Ancient,10,16
+947,EC Kyiv,AGO,Dust2,16,10
+948,EC Kyiv,AGO,Vertigo,16,12
+949,MASONIC,777,Overpass,16,5
+950,MASONIC,777,Nuke,16,14
+951,ATK,Doing Fun,Inferno,16,5
+952,ATK,Doing Fun,Vertigo,19,16
+953,INDE IRAE,Iron Branch,Inferno,14,16
+954,INDE IRAE,Iron Branch,Vertigo,4,16
+955,Doing Fun,BHOP,Overpass,16,12
+956,Doing Fun,BHOP,Inferno,16,8
+957,Brazen,ATK,Inferno,2,16
+958,Brazen,ATK,Overpass,6,16
+959,iNation,BLUEJAYS,Mirage,13,16
+960,iNation,BLUEJAYS,Inferno,16,13
+961,iNation,BLUEJAYS,Dust2,2,16
+962,iNation,BLUEJAYS,Ancient,16,14
+963,iNation,BLUEJAYS,Vertigo,11,16
+964,CLG Red,Little Socks,Overpass,16,4
+965,CLG Red,Little Socks,Mirage,16,4
+966,ECSTATIC,Bad News Eagles,Dust2,15,19
+967,ECSTATIC,Bad News Eagles,Vertigo,16,12
+968,ECSTATIC,Bad News Eagles,Nuke,16,8
+969,NAVI Javelins,NSC,Inferno,16,14
+970,NAVI Javelins,NSC,Nuke,16,8
+971,Nemiga,Iron Branch,Dust2,14,16
+972,Nemiga,Iron Branch,Inferno,16,6
+973,Nemiga,Iron Branch,Mirage,33,37
+974,LGG Eclipse,Counter Nature,Dust2,14,16
+975,LGG Eclipse,Counter Nature,Inferno,5,16
+976,Smile,Cookie Clowns,Ancient,5,16
+977,Smile,Cookie Clowns,Inferno,7,16
+978,Astralis Talent,FURIA Academy,Overpass,12,16
+979,Astralis Talent,FURIA Academy,Vertigo,6,16
+980,los kogutos,M1,Ancient,16,7
+981,los kogutos,M1,Dust2,16,11
+982,Sampi,ECLOT,Dust2,14,16
+983,Sampi,ECLOT,Inferno,5,16
+984,Lemondogs,Vikings,Dust2,16,6
+985,Lemondogs,Vikings,Ancient,17,19
+986,Lemondogs,Vikings,Mirage,11,16
+987,Lilmix,Cocolovers,Mirage,13,16
+988,Lilmix,Cocolovers,Ancient,16,4
+989,Lilmix,Cocolovers,Inferno,16,11
+990,ex-MAD Lions,Eternal Fire,Mirage,16,5
+991,ex-MAD Lions,Eternal Fire,Nuke,11,16
+992,ex-MAD Lions,Eternal Fire,Inferno,16,12
+993,Cookie Clowns,Counter Nature,Nuke,13,16
+994,Cookie Clowns,Counter Nature,Inferno,13,16
+995,fnatic Rising,Young Ninjas,Inferno,10,16
+996,fnatic Rising,Young Ninjas,Vertigo,16,6
+997,fnatic Rising,Young Ninjas,Overpass,16,12
+998,UNGENTIUM,INDE IRAE,Overpass,9,16
+999,UNGENTIUM,INDE IRAE,Vertigo,11,16
+1000,LGG Eclipse,Smile,Vertigo,16,13
+1001,LGG Eclipse,Smile,Overpass,16,7
+1002,SINNERS,eSuba,Nuke,16,12
+1003,SINNERS,eSuba,Vertigo,16,8
+1004,WinX,BLUEJAYS,Mirage,7,16
+1005,WinX,BLUEJAYS,Overpass,10,16
+1006,ECLOT,eSuba,Mirage,16,7
+1007,ECLOT,eSuba,Inferno,16,8
+1008,Astralis,Heroic,Ancient,9,16
+1009,Astralis,Heroic,Overpass,11,16
+1010,4glory,BLUEJAYS,Ancient,8,16
+1011,4glory,BLUEJAYS,Mirage,9,16
+1012,MOUZ,NIP,Nuke,16,11
+1013,MOUZ,NIP,Inferno,11,16
+1014,MOUZ,NIP,Mirage,8,16
+1015,Eternal Fire,Entropiq,Mirage,19,17
+1016,Eternal Fire,Entropiq,Nuke,16,14
+1017,Young Ninjas,EYEBALLERS,Inferno,14,16
+1018,Young Ninjas,EYEBALLERS,Ancient,8,16
+1019,PROSPECTS,FURIA Academy,Overpass,17,19
+1020,PROSPECTS,FURIA Academy,Vertigo,16,14
+1021,PROSPECTS,FURIA Academy,Nuke,17,19
+1022,SINNERS,Sampi,Overpass,19,16
+1023,SINNERS,Sampi,Ancient,19,22
+1024,SINNERS,Sampi,Inferno,17,19
+1025,iNation,WinX,Mirage,11,16
+1026,iNation,WinX,Ancient,16,11
+1027,iNation,WinX,Inferno,22,20
+1028,Kappa Bar,LakeShow,Mirage,13,16
+1029,Kappa Bar,LakeShow,Inferno,16,13
+1030,Kappa Bar,LakeShow,Nuke,16,13
+1031,K23,ex-MAD Lions,Mirage,13,16
+1032,K23,ex-MAD Lions,Ancient,9,16
+1033,Heroic,BIG,Mirage,19,15
+1034,Heroic,BIG,Overpass,16,10
+1035,Young Ninjas,OG Academy,Dust2,16,14
+1036,Young Ninjas,OG Academy,Inferno,16,5
+1037,Sharks,UNO MILLE,Ancient,16,11
+1038,Sharks,UNO MILLE,Dust2,16,9
+1039,EYEBALLERS,LakeShow,Mirage,16,10
+1040,EYEBALLERS,LakeShow,Inferno,16,7
+1041,ARCTIC,Stars Horizon,Ancient,16,6
+1042,BLUEJAYS,BLINK,Mirage,14,16
+1043,BLUEJAYS,BLINK,Dust2,16,8
+1044,BLUEJAYS,BLINK,Vertigo,16,12
+1045,BIG,Astralis,Ancient,7,16
+1046,BIG,Astralis,Dust2,13,16
+1047,Bad News Eagles,ex-MAD Lions,Ancient,16,7
+1048,Bad News Eagles,ex-MAD Lions,Mirage,16,11
+1049,Kappa Bar,Young Ninjas,Inferno,15,19
+1050,Kappa Bar,Young Ninjas,Overpass,16,19
+1051,OG,NIP,Overpass,11,16
+1052,OG,NIP,Mirage,5,16
+1053,FURIA Academy,Young Gods,Dust2,16,11
+1054,FURIA Academy,Young Gods,Overpass,16,6
+1055,0to100,4glory,Inferno,10,16
+1056,0to100,4glory,Dust2,7,16
+1057,Entropiq,ECSTATIC,Vertigo,8,16
+1058,Entropiq,ECSTATIC,Dust2,16,5
+1059,Entropiq,ECSTATIC,Ancient,20,22
+1060,Heroic,Finest,Overpass,16,8
+1061,Heroic,Finest,Vertigo,7,16
+1062,Heroic,Finest,Inferno,16,4
+1063,OG Academy,NAVI Junior,Vertigo,16,10
+1064,OG Academy,NAVI Junior,Inferno,16,9
+1065,Movistar Riders,MOUZ,Vertigo,14,16
+1066,Movistar Riders,MOUZ,Ancient,12,16
+1067,Stars Horizon,UNO MILLE,Overpass,11,16
+1068,Stars Horizon,UNO MILLE,Nuke,13,16
+1069,ARCTIC,Sharks,Dust2,22,19
+1070,ARCTIC,Sharks,Nuke,5,16
+1071,ARCTIC,Sharks,Vertigo,9,16
+1072,NIP,NASR,Mirage,14,16
+1073,NIP,NASR,Overpass,16,9
+1074,NIP,NASR,Nuke,16,5
+1075,Young Gods,Apeks Rebels,Mirage,16,7
+1076,Young Gods,Apeks Rebels,Overpass,10,16
+1077,Young Gods,Apeks Rebels,Vertigo,16,7
+1078,EC Kyiv,Tricked,Overpass,17,19
+1079,EC Kyiv,Tricked,Inferno,19,16
+1080,EC Kyiv,Tricked,Vertigo,13,16
+1081,Finest,Imperial,Overpass,16,9
+1082,Finest,Imperial,Vertigo,16,9
+1083,K23,1WIN,Dust2,16,11
+1084,K23,1WIN,Ancient,16,12
+1085,NAVI Junior,Spirit Academy,Dust2,16,6
+1086,NAVI Junior,Spirit Academy,Inferno,16,19
+1087,NAVI Junior,Spirit Academy,Vertigo,16,11
+1088,MOUZ,Falcons,Nuke,16,8
+1089,MOUZ,Falcons,Mirage,16,9
+1090,Heroic,fnatic,Mirage,16,14
+1091,Heroic,fnatic,Overpass,16,13
+1092,Sprout,Eternal Fire,Inferno,14,16
+1093,Sprout,Eternal Fire,Nuke,12,16
+1094,ex-MAD Lions,ECSTATIC,Nuke,16,12
+1095,ex-MAD Lions,ECSTATIC,Overpass,7,16
+1096,ex-MAD Lions,ECSTATIC,Inferno,10,16
+1097,Movistar Riders,TYLOO,Overpass,13,16
+1098,Movistar Riders,TYLOO,Ancient,16,13
+1099,Movistar Riders,TYLOO,Mirage,16,13
+1100,Astralis,Imperial,Nuke,16,14
+1101,Astralis,Imperial,Mirage,6,16
+1102,Astralis,Imperial,Overpass,16,13
+1103,fnatic,BIG,Nuke,16,7
+1104,fnatic,BIG,Overpass,11,16
+1105,fnatic,BIG,Vertigo,10,16
+1106,BIG Academy,777,Ancient,9,16
+1107,BIG Academy,777,Dust2,11,16
+1108,Complexity,OG,Overpass,16,11
+1109,Complexity,OG,Vertigo,8,16
+1110,Complexity,OG,Inferno,11,16
+1111,EG.CD,Axolotls,Mirage,16,9
+1112,EG.CD,Axolotls,Overpass,16,10
+1113,BHOP,Bad News Bears,Inferno,16,12
+1114,BHOP,Bad News Bears,Overpass,5,16
+1115,BHOP,Bad News Bears,Dust2,16,7
+1116,Gaimin Gladiators,TeamOne,Nuke,13,16
+1117,Gaimin Gladiators,TeamOne,Inferno,16,10
+1118,Gaimin Gladiators,TeamOne,Overpass,16,1
+1119,Party Astronauts,Bad News Bears,Default,0,1
+1120,GODSENT,Brazen,Nuke,16,1
+1121,GODSENT,Brazen,Ancient,16,8
+1122,UNO MILLE,River Plate,Mirage,16,14
+1123,UNO MILLE,River Plate,Nuke,16,12
+1124,WINDINGO,Sharks,Mirage,8,16
+1125,WINDINGO,Sharks,Nuke,1,16
+1126,ONET4P,Davenport University,Inferno,16,10
+1127,ONET4P,Davenport University,Vertigo,16,5
+1128,Entropiq,K23,Ancient,13,16
+1129,Entropiq,K23,Nuke,16,14
+1130,Entropiq,K23,Mirage,19,16
+1131,Davenport University,the jungle,Nuke,16,9
+1132,Davenport University,the jungle,Inferno,16,10
+1133,EG.PA,Finest,Dust2,9,16
+1134,EG.PA,Finest,Inferno,8,16
+1135,Heroic,MIBR,Inferno,16,11
+1136,Heroic,MIBR,Mirage,16,3
+1137,Bad News Eagles,Sprout,Vertigo,16,12
+1138,Bad News Eagles,Sprout,Dust2,16,12
+1139,MASONIC,BLUEJAYS,Dust2,12,16
+1140,MASONIC,BLUEJAYS,Overpass,14,16
+1141,Valors,ONET4P,Vertigo,3,16
+1142,Valors,ONET4P,Inferno,16,19
+1143,Imperial,Finest,Dust2,16,12
+1144,Astralis,EG.PA,Overpass,16,6
+1145,BIG,MIBR,Nuke,16,7
+1146,Heroic,fnatic,Inferno,14,16
+1147,GODSENT,TeamOne,Mirage,17,19
+1148,GODSENT,TeamOne,Overpass,16,9
+1149,GODSENT,TeamOne,Inferno,16,5
+1150,Bad News Bears,Axolotls,Mirage,19,17
+1151,Bad News Bears,Axolotls,Overpass,16,13
+1152,Furious,River Plate,Mirage,10,16
+1153,UNO MILLE,ARCTIC,Inferno,10,16
+1154,ARCTIC,River Plate,Ancient,16,4
+1155,UNO MILLE,Furious,Nuke,16,6
+1156,Davenport University,ONET4P,Inferno,14,16
+1157,Eternal Fire,ex-MAD Lions,Dust2,22,25
+1158,Eternal Fire,ex-MAD Lions,Mirage,9,16
+1159,X,SC,Inferno,16,5
+1160,X,SC,Vertigo,6,16
+1161,X,SC,Mirage,16,6
+1162,ONET4P,Valors,Inferno,6,16
+1163,the jungle,ONET4P,Nuke,16,6
+1164,Finest,Sprout,Nuke,14,16
+1165,Finest,Sprout,Dust2,13,16
+1166,Young Ninjas,FURIA Academy,Inferno,16,7
+1167,ECSTATIC,1WIN,Dust2,12,16
+1168,ECSTATIC,1WIN,Vertigo,22,20
+1169,ECSTATIC,1WIN,Ancient,16,13
+1170,Enterprise,BLUEJAYS,Mirage,12,16
+1171,Enterprise,BLUEJAYS,Ancient,13,16
+1172,Davenport University,the jungle,Inferno,16,8
+1173,Valors,Davenport University,Inferno,16,13
+1174,SINNERS,Enterprise,Mirage,12,16
+1175,SINNERS,Enterprise,Overpass,9,16
+1176,the jungle,Valors,Nuke,12,16
+1177,Into the Breach,AGO,Ancient,11,16
+1178,Into the Breach,AGO,Nuke,9,16
+1179,Bad News Bears,Mythic,Mirage,16,7
+1180,Bad News Bears,Mythic,Overpass,13,16
+1181,Bad News Bears,Mythic,Inferno,14,16
+1182,Gaimin Gladiators,Brazen,Nuke,7,16
+1183,Gaimin Gladiators,Brazen,Ancient,16,4
+1184,Gaimin Gladiators,Brazen,Mirage,13,16
+1185,Boca Juniors,Sharks,Mirage,14,16
+1186,Stars Horizon,WINDINGO,Nuke,16,7
+1187,WINDINGO,Sharks,Nuke,16,13
+1188,Boca Juniors,Stars Horizon,Nuke,16,19
+1189,MOUZ NXT,Young Gods,Mirage,16,9
+1190,SC,BLUEJAYS,Inferno,16,9
+1191,SC,BLUEJAYS,Mirage,14,16
+1192,SC,BLUEJAYS,Dust2,16,14
+1193,PROSPECTS,Eternal Fire Academy,Dust2,16,14
+1194,SKADE,Sprout,Ancient,16,1
+1195,SKADE,Sprout,Nuke,12,16
+1196,SKADE,Sprout,Dust2,2,16
+1197,NAVI Junior,Young Ninjas,Mirage,14,16
+1198,BIG Academy,FURIA Academy,Overpass,16,14
+1199,Apeks,KOVA,Nuke,16,7
+1200,Apeks,KOVA,Inferno,16,10
+1201,Astralis Talent,Apeks Rebels,Mirage,16,6
+1202,X,Enterprise,Inferno,16,6
+1203,X,Enterprise,Vertigo,16,13
+1204,Hellslayers,K23,Overpass,14,16
+1205,Hellslayers,K23,Ancient,13,16
+1206,OG Academy,Spirit Academy,Dust2,16,13
+1207,Nigma Galaxy,FURIA fe,Mirage,14,16
+1208,Nigma Galaxy,FURIA fe,Vertigo,16,5
+1209,Nigma Galaxy,FURIA fe,Overpass,16,7
+1210,ATK,Gaimin Gladiators,Mirage,16,9
+1211,ATK,Gaimin Gladiators,Inferno,16,11
+1212,NAVI Javelins,NSC,Inferno,12,16
+1213,NAVI Javelins,NSC,Nuke,16,8
+1214,NAVI Javelins,NSC,Vertigo,16,12
+1215,B4,Stars Horizon,Vertigo,13,16
+1216,B4,Stars Horizon,Mirage,16,7
+1217,B4,Stars Horizon,Overpass,16,8
+1218,Gaimin Gladiators,Bad News Bears,Overpass,13,16
+1219,Gaimin Gladiators,Bad News Bears,Mirage,16,11
+1220,Gaimin Gladiators,Bad News Bears,Inferno,16,7
+1221,CLG Red,FURIA fe,Vertigo,16,3
+1222,CLG Red,FURIA fe,Mirage,17,19
+1223,CLG Red,FURIA fe,Dust2,2,16
+1224,FPL Demons,ATK,Inferno,7,16
+1225,FPL Demons,ATK,Overpass,14,16
+1226,MIBR fe,ENDGAME,Vertigo,7,16
+1227,MIBR fe,ENDGAME,Inferno,12,16
+1228,SINNERS,Budapest Five,Ancient,16,7
+1229,SINNERS,Budapest Five,Mirage,10,16
+1230,SINNERS,Budapest Five,Overpass,16,9
+1231,Young Ninjas,FURIA Academy,Vertigo,16,13
+1232,Eternal Fire Academy,Spirit Academy,Dust2,6,16
+1233,ENCE,Cloud9,Mirage,12,16
+1234,ENCE,Cloud9,Overpass,11,16
+1235,ENCE,Cloud9,Ancient,3,16
+1236,iNation,Wolsung,Inferno,12,16
+1237,iNation,Wolsung,Dust2,10,16
+1238,Nigma Galaxy,BIG EQUIPA,Ancient,9,16
+1239,Nigma Galaxy,BIG EQUIPA,Inferno,16,7
+1240,Nigma Galaxy,BIG EQUIPA,Overpass,16,5
+1241,los kogutos,ECLOT,Ancient,16,9
+1242,los kogutos,ECLOT,Mirage,16,7
+1243,NAVI Junior,Astralis Talent,Mirage,14,16
+1244,Entropiq Prague,Enterprise,Mirage,16,13
+1245,Entropiq Prague,Enterprise,Nuke,6,16
+1246,Entropiq Prague,Enterprise,Inferno,11,16
+1247,Young Gods,fnatic Rising,Ancient,16,12
+1248,Wolsung,ECLOT,Overpass,6,16
+1249,Wolsung,ECLOT,Ancient,13,16
+1250,Cocolovers,Vikings,Nuke,16,6
+1251,Cocolovers,Vikings,Mirage,16,3
+1252,MOUZ NXT,OG Academy,Nuke,16,10
+1253,los kogutos,iNation,Mirage,16,10
+1254,los kogutos,iNation,Ancient,13,16
+1255,los kogutos,iNation,Nuke,16,8
+1256,Coastal Mayhem,BLUEJAYS,Inferno,3,16
+1257,Coastal Mayhem,BLUEJAYS,Mirage,12,16
+1258,Axolotls,BHOP,Vertigo,9,16
+1259,Axolotls,BHOP,Inferno,7,16
+1260,Stars Horizon,ARCTIC,Overpass,11,16
+1261,Stars Horizon,ARCTIC,Ancient,16,12
+1262,Stars Horizon,ARCTIC,Mirage,16,13
+1263,FURIA fe,Please Send Help,Overpass,16,6
+1264,FURIA fe,Please Send Help,Mirage,16,6
+1265,BIG,Cloud9,Overpass,16,14
+1266,BIG,Cloud9,Dust2,9,16
+1267,BIG,Cloud9,Ancient,3,16
+1268,Black Dragons fe,BIG EQUIPA,Dust2,14,16
+1269,Black Dragons fe,BIG EQUIPA,Overpass,16,19
+1270,Young Gods,Eternal Fire Academy,Vertigo,19,17
+1271,MOUZ NXT,Spirit Academy,Mirage,16,14
+1272,ATK fe,Please Send Help,Inferno,10,16
+1273,ATK fe,Please Send Help,Overpass,16,19
+1274,ENCE,FURIA,Vertigo,16,14
+1275,ENCE,FURIA,Nuke,16,9
+1276,ECLOT,UNGENTIUM,Vertigo,7,16
+1277,ECLOT,UNGENTIUM,Mirage,16,14
+1278,ECLOT,UNGENTIUM,Ancient,16,11
+1279,PROSPECTS,fnatic Rising,Vertigo,12,16
+1280,FURIA Academy,Astralis Talent,Mirage,12,16
+1281,Apeks Rebels,NAVI Junior,Dust2,6,16
+1282,los kogutos,OneTap,Nuke,16,7
+1283,los kogutos,OneTap,Overpass,9,16
+1284,los kogutos,OneTap,Mirage,16,9
+1285,Anonymo,iNation,Nuke,7,16
+1286,Anonymo,iNation,Vertigo,13,16
+1287,Enterprise,allStars,Inferno,16,19
+1288,Enterprise,allStars,Mirage,16,8
+1289,Enterprise,allStars,Overpass,16,6
+1290,Wolsung,QUADRUPLE,Default,1,0
+1291,Mindfreak,BIG EQUIPA,Inferno,6,16
+1292,Mindfreak,BIG EQUIPA,Ancient,7,16
+1293,MIBR,Mythic,Mirage,19,16
+1294,MIBR,Mythic,Dust2,16,14
+1295,FaZe,Cloud9,Overpass,16,14
+1296,FaZe,Cloud9,Inferno,13,16
+1297,FaZe,Cloud9,Mirage,13,16
+1298,Brazen,Unjustified,Overpass,16,14
+1299,Brazen,Unjustified,Nuke,16,2
+1300,Nigma Galaxy,FURIA fe,Overpass,19,17
+1301,GODSENT,ex-UYU,Inferno,16,12
+1302,GODSENT,ex-UYU,Overpass,16,9
+1303,Redragon,ARCTIC,Nuke,16,3
+1304,Redragon,ARCTIC,Overpass,17,19
+1305,Redragon,ARCTIC,Dust2,17,19
+1306,CLG Red,Black Dragons fe,Overpass,22,20
+1307,Please Send Help,FURIA fe,Nuke,2,16
+1308,G2,FURIA,Inferno,16,13
+1309,G2,FURIA,Vertigo,17,19
+1310,G2,FURIA,Mirage,5,16
+1311,Stars Horizon,B4,Mirage,5,16
+1312,Stars Horizon,B4,Ancient,8,16
+1313,Apeks Rebels,BIG Academy,Overpass,6,16
+1314,Nigma Galaxy,ATK fe,Inferno,16,0
+1315,Young Ninjas,Astralis Talent,Mirage,12,16
+1316,BIG EQUIPA,Black Dragons fe,Nuke,12,16
+1317,OG Academy,PROSPECTS,Ancient,8,16
+1318,Pyhan Ilona,TMVG,Nuke,12,16
+1319,Pyhan Ilona,TMVG,Inferno,4,16
+1320,X,Budapest Five,Ancient,16,12
+1321,X,Budapest Five,Dust2,11,16
+1322,X,Budapest Five,Mirage,16,14
+1323,fnatic Rising,MOUZ NXT,Ancient,19,17
+1324,CLG Red,Mindfreak,Mirage,16,2
+1325,Spirit Academy,Young Gods,Vertigo,16,9
+1326,MIBR,Axolotls,Ancient,16,12
+1327,MIBR,Axolotls,Mirage,2,16
+1328,MIBR,Axolotls,Dust2,16,14
+1329,ex-UYU,Brazen,Inferno,16,19
+1330,ex-UYU,Brazen,Nuke,10,16
+1331,Unjustified,ATK,Inferno,6,16
+1332,Unjustified,ATK,Mirage,7,16
+1333,B8,SC,Inferno,6,16
+1334,B8,SC,Nuke,16,10
+1335,B8,SC,Vertigo,11,16
+1336,fnatic Rising,OG Academy,Inferno,16,13
+1337,Apeks,Sprout,Ancient,26,28
+1338,Apeks,Sprout,Dust2,19,16
+1339,Apeks,Sprout,Overpass,13,16
+1340,Spirit Academy,PROSPECTS,Dust2,14,16
+1341,Lilmix,LakeShow,Mirage,9,16
+1342,Lilmix,LakeShow,Nuke,5,16
+1343,Eternal Fire Academy,MOUZ NXT,Mirage,12,16
+1344,Apeks Rebels,Young Ninjas,Overpass,6,16
+1345,BIG Academy,NAVI Junior,Dust2,16,4
+1346,ex-MAD Lions,EC Kyiv,Inferno,16,12
+1347,ex-MAD Lions,EC Kyiv,Mirage,16,11
+1348,Kyrgyzstan U23,Russia U23,Dust2,7,16
+1349,Kyrgyzstan U23,Russia U23,Mirage,14,16
+1350,MIBR,BHOP,Inferno,13,16
+1351,MIBR,BHOP,Nuke,16,6
+1352,MIBR,BHOP,Overpass,16,12
+1353,FURIA,BIG,Nuke,8,16
+1354,FURIA,BIG,Vertigo,16,10
+1355,FURIA,BIG,Mirage,10,16
+1356,Liquid,Cloud9,Ancient,5,16
+1357,Liquid,Cloud9,Vertigo,12,16
+1358,Bad News Bears,Carpe Diem,Nuke,3,16
+1359,Bad News Bears,Carpe Diem,Inferno,16,7
+1360,Bad News Bears,Carpe Diem,Overpass,11,16
+1361,ENCE,FaZe,Mirage,12,16
+1362,ENCE,FaZe,Ancient,16,12
+1363,ENCE,FaZe,Nuke,16,8
+1364,Vitality,G2,Dust2,7,16
+1365,Vitality,G2,Inferno,14,16
+1366,PROSPECTS,MOUZ NXT,Mirage,8,16
+1367,Astralis Talent,BIG Academy,Mirage,20,22
+1368,ex-MAD Lions,Sprout,Mirage,16,9
+1369,ex-MAD Lions,Sprout,Ancient,12,16
+1370,ex-MAD Lions,Sprout,Inferno,6,16
+1371,WinX,allStars,Overpass,12,16
+1372,WinX,allStars,Dust2,16,19
+1373,Finest,BLUEJAYS,Mirage,16,9
+1374,Finest,BLUEJAYS,Dust2,11,16
+1375,Finest,BLUEJAYS,Vertigo,16,7
+1376,NAVI Junior,FURIA Academy,Inferno,13,16
+1377,NIP,Cloud9,Vertigo,16,19
+1378,NIP,Cloud9,Overpass,5,16
+1379,Liquid,MIBR,Ancient,16,12
+1380,Liquid,MIBR,Inferno,16,9
+1381,OG Academy,Young Gods,Mirage,16,14
+1382,fnatic Rising,Eternal Fire Academy,Inferno,16,13
+1383,Enterprise,ECSTATIC,Ancient,15,19
+1384,Enterprise,ECSTATIC,Inferno,16,9
+1385,Enterprise,ECSTATIC,Overpass,1,16
+1386,MIBR,Carpe Diem,Overpass,16,14
+1387,MIBR,Carpe Diem,Dust2,16,4
+1388,TeamOne,ex-UYU,Inferno,13,16
+1389,TeamOne,ex-UYU,Mirage,19,16
+1390,TeamOne,ex-UYU,Nuke,16,11
+1391,G2,Astralis,Nuke,16,5
+1392,G2,Astralis,Dust2,10,16
+1393,G2,Astralis,Vertigo,16,10
+1394,Gaimin Gladiators,GODSENT,Inferno,13,16
+1395,Gaimin Gladiators,GODSENT,Vertigo,9,16
+1396,Bad News Bears,Strife,Vertigo,7,16
+1397,Bad News Bears,Strife,Inferno,7,16
+1398,MIBR,BIG,Mirage,18,22
+1399,MIBR,BIG,Nuke,4,16
+1400,MOUZ,Vitality,Inferno,14,16
+1401,MOUZ,Vitality,Mirage,7,16
+1402,FURIA,Cloud9,Vertigo,16,9
+1403,FURIA,Cloud9,Mirage,16,13
+1404,Spirit Academy,fnatic Rising,Mirage,16,13
+1405,SKADE,Into the Breach,Inferno,16,3
+1406,SKADE,Into the Breach,Overpass,14,16
+1407,SKADE,Into the Breach,Mirage,14,16
+1408,K23,Sprout,Ancient,12,16
+1409,K23,Sprout,Mirage,16,14
+1410,K23,Sprout,Dust2,12,16
+1411,ex-MAD Lions,HEET,Inferno,3,16
+1412,ex-MAD Lions,HEET,Ancient,16,3
+1413,ex-MAD Lions,HEET,Dust2,7,16
+1414,Eternal Fire Academy,OG Academy,Dust2,13,16
+1415,Young Ninjas,X Gamer,Overpass,19,17
+1416,Young Ninjas,X Gamer,Inferno,10,16
+1417,Young Ninjas,X Gamer,Ancient,16,6
+1418,BIG Academy,KOVA,Nuke,14,16
+1419,BIG Academy,KOVA,Overpass,16,14
+1420,BIG Academy,KOVA,Vertigo,9,16
+1421,MIBR,Strife,Default,0,1
+1422,Young Gods,PROSPECTS,Mirage,16,13
+1423,Complexity,NIP,Vertigo,9,16
+1424,Complexity,NIP,Overpass,12,16
+1425,Imperial,Liquid,Overpass,9,16
+1426,Imperial,Liquid,Vertigo,9,16
+1427,FURIA Academy,Apeks Rebels,Overpass,19,17
+1428,Apeks,Enterprise,Ancient,14,16
+1429,Apeks,Enterprise,Nuke,16,11
+1430,Apeks,Enterprise,Mirage,12,16
+1431,BIG Academy,Young Ninjas,Overpass,16,13
+1432,777,SINNERS,Inferno,4,16
+1433,777,SINNERS,Overpass,16,13
+1434,777,SINNERS,Nuke,3,16
+1435,Bad News Bears,MIBR,Nuke,16,10
+1436,Bad News Bears,MIBR,Inferno,7,16
+1437,Bad News Bears,MIBR,Overpass,16,11
+1438,Strife,Axolotls,Ancient,16,9
+1439,Strife,Axolotls,Mirage,16,14
+1440,FaZe,Vitality,Dust2,16,11
+1441,FaZe,Vitality,Nuke,16,10
+1442,Encore,Astralis,Vertigo,3,16
+1443,Encore,Astralis,Nuke,9,16
+1444,Carpe Diem,Strife,Overpass,19,16
+1445,Carpe Diem,Strife,Nuke,12,16
+1446,Carpe Diem,Strife,Inferno,16,19
+1447,G2,ENCE,Dust2,14,16
+1448,G2,ENCE,Nuke,14,16
+1449,Movistar Riders,MOUZ,Ancient,9,16
+1450,Movistar Riders,MOUZ,Mirage,10,16
+1451,FURIA Academy,BIG Academy,Vertigo,3,16
+1452,Entropiq Prague,ex-MAD Lions,Inferno,10,16
+1453,Entropiq Prague,ex-MAD Lions,Vertigo,16,9
+1454,Entropiq Prague,ex-MAD Lions,Mirage,11,16
+1455,Apeks Rebels,Astralis Talent,Vertigo,1,16
+1456,NIP,BIG,Ancient,10,16
+1457,MIBR,Complexity,Nuke,16,4
+1458,Young Ninjas,NAVI Junior,Inferno,16,12
+1459,Liquid,Cloud9,Vertigo,6,16
+1460,FURIA,Imperial,Mirage,16,9
+1461,Young Gods,MOUZ NXT,Ancient,14,16
+1462,Astralis,Vitality,Vertigo,12,16
+1463,FaZe,Encore,Dust2,16,5
+1464,MASONIC,AGO,Ancient,16,9
+1465,MASONIC,AGO,Nuke,16,4
+1466,Budapest Five,Case,Mirage,16,12
+1467,Budapest Five,Case,Overpass,13,16
+1468,Budapest Five,Case,Inferno,16,13
+1469,Eternal Fire Academy,PROSPECTS,Mirage,7,16
+1470,MOUZ,ENCE,Nuke,9,16
+1471,G2,Movistar Riders,Nuke,16,5
+1472,Spirit Academy,OG Academy,Nuke,22,19
+1473,Tricked,Into the Breach,Inferno,19,16
+1474,Tricked,Into the Breach,Nuke,16,10
+1475,Sprout,HEET,Overpass,19,15
+1476,Sprout,HEET,Dust2,11,16
+1477,Sprout,HEET,Ancient,14,16
+1478,Gaimin Gladiators,Party Astronauts,Inferno,16,1
+1479,Gaimin Gladiators,Party Astronauts,Mirage,14,16
+1480,Gaimin Gladiators,Party Astronauts,Ancient,16,14
+1481,Mindfreak,Please Send Help,Mirage,16,9
+1482,Mindfreak,Please Send Help,Overpass,13,16
+1483,Mindfreak,Please Send Help,Inferno,16,8
+1484,paiN,Carpe Diem,Overpass,16,13
+1485,paiN,Carpe Diem,Nuke,16,6
+1486,Strife,Mythic,Ancient,16,3
+1487,Strife,Mythic,Overpass,5,16
+1488,Strife,Mythic,Inferno,16,14
+1489,ATK,ex-UYU,Inferno,16,5
+1490,ATK,ex-UYU,Mirage,16,7
+1491,Black Dragons fe,MIBR fe,Dust2,16,12
+1492,Black Dragons fe,MIBR fe,Overpass,32,34
+1493,Black Dragons fe,MIBR fe,Inferno,7,16
+1494,Party Astronauts,Carpe Diem,Overpass,8,16
+1495,Party Astronauts,Carpe Diem,Dust2,16,14
+1496,Party Astronauts,Carpe Diem,Inferno,14,16
+1497,paiN,Gaimin Gladiators,Inferno,16,11
+1498,paiN,Gaimin Gladiators,Ancient,16,12
+1499,B8,Anonymo,Nuke,16,7
+1500,B8,Anonymo,Overpass,13,16
+1501,B8,Anonymo,Ancient,16,12
+1502,Spirit Academy,Eternal Fire Academy,Inferno,16,14
+1503,Sprout,Sampi,Inferno,16,7
+1504,Sprout,Sampi,Dust2,10,16
+1505,Sprout,Sampi,Ancient,16,7
+1506,PROSPECTS,777,Overpass,10,16
+1507,PROSPECTS,777,Vertigo,16,2
+1508,PROSPECTS,777,Ancient,14,16
+1509,SAW,FTW,Default,1,0
+1510,SAW,FTW,Dust2,6,16
+1511,SAW,FTW,Overpass,16,9
+1512,SAW,FTW,Vertigo,14,16
+1513,SAW,FTW,Nuke,11,16
+1514,fnatic Rising,Young Gods,Inferno,16,2
+1515,OG Academy,MOUZ NXT,Inferno,16,11
+1516,Anonymo,Entropy,Overpass,12,16
+1517,Anonymo,Entropy,Ancient,16,9
+1518,Anonymo,Entropy,Dust2,19,17
+1519,FURIA Academy,Young Ninjas,Overpass,16,3
+1520,KOVA,temp,Nuke,16,10
+1521,KOVA,temp,Inferno,17,19
+1522,KOVA,temp,Ancient,16,5
+1523,Lilmix,Lemondogs,Inferno,16,9
+1524,Lilmix,Lemondogs,Ancient,16,7
+1525,Astralis Talent,NAVI Junior,Vertigo,16,14
+1526,SINNERS,MOUZ NXT,Nuke,9,16
+1527,SINNERS,MOUZ NXT,Inferno,4,16
+1528,Oilers,777,Overpass,6,16
+1529,Oilers,777,Nuke,16,7
+1530,Oilers,777,Dust2,12,16
+1531,EC Brugge,B8,Nuke,10,16
+1532,EC Brugge,B8,Vertigo,3,16
+1533,OFFSET,FTW,Vertigo,12,16
+1534,OFFSET,FTW,Inferno,10,16
+1535,PROSPECTS,Apeks Rebels,Mirage,16,8
+1536,PROSPECTS,Apeks Rebels,Ancient,13,16
+1537,PROSPECTS,Apeks Rebels,Dust2,16,7
+1538,ATK,Gaimin Gladiators,Dust2,6,16
+1539,Carpe Diem,ex-UYU,Inferno,16,8
+1540,paiN,ONET4P,Nuke,16,6
+1541,Brazen,Party Astronauts,Inferno,9,16
+1542,Astralis Talent,FURIA Academy,Overpass,13,16
+1543,Enterprise,EC Brugge,Nuke,16,9
+1544,Enterprise,EC Brugge,Inferno,16,7
+1545,Hellslayers,ECSTATIC,Dust2,16,14
+1546,Hellslayers,ECSTATIC,Ancient,6,16
+1547,Hellslayers,ECSTATIC,Overpass,11,16
+1548,fnatic Rising,PROSPECTS,Ancient,10,16
+1549,los kogutos,kevlarirl,Overpass,12,16
+1550,los kogutos,kevlarirl,Ancient,16,12
+1551,los kogutos,kevlarirl,Mirage,16,13
+1552,OFFSET,SAW,Nuke,8,16
+1553,OFFSET,SAW,Inferno,11,16
+1554,K23,ex-MAD Lions,Vertigo,14,16
+1555,K23,ex-MAD Lions,Overpass,11,16
+1556,temp,Bob,Ancient,31,29
+1557,temp,Bob,Mirage,16,13
+1558,Eternal Fire Academy,Young Gods,Inferno,13,16
+1559,EC Brugge,ROYALS,Inferno,9,16
+1560,EC Brugge,ROYALS,Nuke,16,14
+1561,EC Brugge,ROYALS,Mirage,16,4
+1562,BLUEJAYS,BLINK,Inferno,16,10
+1563,BLUEJAYS,BLINK,Mirage,25,21
+1564,Spirit Academy,MOUZ NXT,Nuke,6,16
+1565,K23,UNGENTIUM,Ancient,22,20
+1566,K23,UNGENTIUM,Inferno,16,9
+1567,NAVI Junior,Apeks Rebels,Vertigo,16,12
+1568,VELOX,FTW,Overpass,9,16
+1569,VELOX,FTW,Vertigo,8,16
+1570,los kogutos,AGF,Nuke,16,4
+1571,los kogutos,AGF,Mirage,16,11
+1572,kevlarirl,EXEN,Ancient,16,5
+1573,kevlarirl,EXEN,Overpass,16,7
+1574,Enterprise,Operation Save Spot,Nuke,16,5
+1575,Enterprise,Operation Save Spot,Inferno,16,8
+1576,KOVA,Conquer,Inferno,16,11
+1577,KOVA,Conquer,Nuke,16,4
+1578,X,BLINK,Ancient,16,12
+1579,X,BLINK,Inferno,11,16
+1580,X,BLINK,Mirage,14,16
+1581,SAW,FTW,Vertigo,16,9
+1582,OFFSET,VELOX,Inferno,16,12
+1583,Illyrians,BLUEJAYS,Vertigo,4,16
+1584,Illyrians,BLUEJAYS,Inferno,12,16
+1585,paiN,GODSENT,Ancient,16,6
+1586,paiN,GODSENT,Vertigo,9,16
+1587,paiN,GODSENT,Inferno,7,16
+1588,Strife,Party Astronauts,Dust2,9,16
+1589,Strife,Party Astronauts,Nuke,16,14
+1590,Strife,Party Astronauts,Inferno,12,16
+1591,GODSENT,ATK,Mirage,16,14
+1592,GODSENT,ATK,Overpass,16,8
+1593,Eternal Fire,Finest,Overpass,16,9
+1594,Eternal Fire,Finest,Vertigo,6,16
+1595,Eternal Fire,Finest,Dust2,14,16
+1596,PROSPECTS,OG Academy,Mirage,16,9
+1597,MIBR,OG,Dust2,5,16
+1598,MIBR,OG,Overpass,11,16
+1599,Sprout,MOUZ,Vertigo,16,14
+1600,Sprout,MOUZ,Inferno,16,12
+1601,MOUZ NXT,fnatic Rising,Mirage,22,20
+1602,Young Gods,Spirit Academy,Mirage,16,10
+1603,Finest,Movistar Riders,Inferno,16,12
+1604,Finest,Movistar Riders,Vertigo,17,19
+1605,Finest,Movistar Riders,Mirage,16,12
+1606,BLINK,ESK,Dust2,16,1
+1607,BLINK,ESK,Inferno,12,16
+1608,BLINK,ESK,Mirage,16,13
+1609,Bob,TMVG,Inferno,16,3
+1610,Bob,TMVG,Nuke,16,4
+1611,BIG Academy,Apeks Rebels,Mirage,16,5
+1612,Illyrians,Perspektiva,Inferno,16,4
+1613,Illyrians,Perspektiva,Ancient,16,14
+1614,forZe,MOUZ,Overpass,16,19
+1615,forZe,MOUZ,Ancient,12,16
+1616,Astralis Talent,Young Ninjas,Ancient,16,12
+1617,Enterprise,Wolsung,Overpass,25,23
+1618,Enterprise,Wolsung,Mirage,14,16
+1619,Enterprise,Wolsung,Inferno,16,9
+1620,Conquer,COWABUNGA,Nuke,16,13
+1621,Conquer,COWABUNGA,Inferno,16,11
+1622,BLUEJAYS,uNiQUE,Inferno,16,8
+1623,BLUEJAYS,uNiQUE,Dust2,16,10
+1624,Eternal Fire,ECSTATIC,Nuke,19,17
+1625,Eternal Fire,ECSTATIC,Inferno,16,12
+1626,X,Sakrifica,Nuke,16,3
+1627,X,Sakrifica,Inferno,16,8
+1628,paiN,ATK,Dust2,16,13
+1629,paiN,ATK,Vertigo,13,16
+1630,paiN,ATK,Inferno,16,10
+1631,TeamOne,GODSENT,Nuke,13,16
+1632,TeamOne,GODSENT,Ancient,6,16
+1633,ATK,GODSENT,Mirage,22,20
+1634,ATK,GODSENT,Vertigo,16,7
+1635,paiN,TeamOne,Inferno,16,8
+1636,paiN,TeamOne,Ancient,16,7
+1637,Young Ninjas,Apeks Rebels,Overpass,16,10
+1638,MOUZ,Sprout,Overpass,14,16
+1639,MOUZ,Sprout,Inferno,17,19
+1640,forZe,SKADE,Overpass,16,4
+1641,forZe,SKADE,Dust2,16,14
+1642,MOUZ NXT,Eternal Fire Academy,Nuke,16,4
+1643,SINNERS,Sampi,Overpass,16,9
+1644,SINNERS,Sampi,Inferno,16,12
+1645,SC,Cryptova,Dust2,16,9
+1646,SC,Cryptova,Overpass,16,12
+1647,Movistar Riders,Isurus,Mirage,16,9
+1648,Movistar Riders,Isurus,Nuke,16,11
+1649,OG Academy,fnatic Rising,Inferno,15,19
+1650,Finest,KOVA,Ancient,10,16
+1651,Finest,KOVA,Overpass,16,9
+1652,Finest,KOVA,Inferno,16,2
+1653,NAVI Junior,BIG Academy,Dust2,10,16
+1654,B8,0to100,Nuke,16,7
+1655,B8,0to100,Inferno,16,8
+1656,Bad News Eagles,ECSTATIC,Dust2,16,4
+1657,Bad News Eagles,ECSTATIC,Vertigo,1,16
+1658,Bad News Eagles,ECSTATIC,Ancient,12,16
+1659,Into the Breach,Case,Inferno,16,4
+1660,Into the Breach,Case,Ancient,22,20
+1661,PROSPECTS,Spirit Academy,Mirage,16,14
+1662,HEET,SKADE,Overpass,14,16
+1663,HEET,SKADE,Nuke,13,16
+1664,forZe,K23,Mirage,16,14
+1665,forZe,K23,Nuke,16,13
+1666,AGO,Enterprise,Inferno,3,16
+1667,AGO,Enterprise,Mirage,19,22
+1668,Eternal Fire,SKADE,Nuke,16,11
+1669,Eternal Fire,SKADE,Inferno,16,14
+1670,TYLOO,Finest,Vertigo,4,16
+1671,TYLOO,Finest,Dust2,6,16
+1672,TeamOne,Brazen,Nuke,16,6
+1673,TeamOne,Brazen,Mirage,13,16
+1674,TeamOne,Brazen,Vertigo,8,16
+1675,Axolotls,Mythic,Vertigo,6,16
+1676,Axolotls,Mythic,Inferno,13,16
+1677,paiN,ex-UYU,Inferno,16,10
+1678,paiN,ex-UYU,Nuke,16,2
+1679,Strife,BHOP,Nuke,16,9
+1680,Strife,BHOP,Mirage,16,8
+1681,SKADE,1WIN,Dust2,16,14
+1682,SKADE,1WIN,Ancient,17,19
+1683,SKADE,1WIN,Overpass,16,11
+1684,Entropiq,K23,Mirage,13,16
+1685,Entropiq,K23,Ancient,16,7
+1686,Entropiq,K23,Dust2,13,16
+1687,Iron Branch,VP.Prodigy,Vertigo,10,16
+1688,Iron Branch,VP.Prodigy,Dust2,16,8
+1689,Iron Branch,VP.Prodigy,Inferno,16,5
+1690,SAW,AGO,Nuke,19,15
+1691,SAW,AGO,Ancient,17,19
+1692,SAW,AGO,Vertigo,16,12
+1693,BLUEJAYS,eSuba,Inferno,16,8
+1694,BLUEJAYS,eSuba,Mirage,19,17
+1695,SINNERS,ex-MAD Lions,Mirage,8,16
+1696,SINNERS,ex-MAD Lions,Ancient,19,16
+1697,SINNERS,ex-MAD Lions,Inferno,7,16
+1698,Spirit,Finest,Vertigo,13,16
+1699,Spirit,Finest,Ancient,17,19
+1700,Sprout,HEET,Vertigo,16,6
+1701,Sprout,HEET,Dust2,16,13
+1702,forZe,MOUZ,Mirage,11,16
+1703,forZe,MOUZ,Ancient,8,16
+1704,MOUZ NXT,PROSPECTS,Ancient,16,5
+1705,Young Gods,OG Academy,Dust2,7,16
+1706,k1ck,Coastal Mayhem,Ancient,16,4
+1707,k1ck,Coastal Mayhem,Mirage,14,16
+1708,k1ck,Coastal Mayhem,Overpass,14,16
+1709,Eternal Fire Academy,fnatic Rising,Vertigo,7,16
+1710,Apeks,ECSTATIC,Nuke,22,18
+1711,Apeks,ECSTATIC,Ancient,5,16
+1712,Apeks,ECSTATIC,Dust2,13,16
+1713,K23,HEET,Overpass,19,17
+1714,K23,HEET,Ancient,5,16
+1715,K23,HEET,Dust2,9,16
+1716,FURIA Academy,NAVI Junior,Mirage,16,6
+1717,ex-MAD Lions,UNGENTIUM,Ancient,19,16
+1718,ex-MAD Lions,UNGENTIUM,Inferno,16,8
+1719,Entropiq,Sprout,Vertigo,13,16
+1720,Entropiq,Sprout,Ancient,14,16
+1721,BIG Academy,Astralis Talent,Mirage,10,16
+1722,1WIN,MOUZ,Vertigo,11,16
+1723,1WIN,MOUZ,Nuke,11,16
+1724,forZe,SKADE,Overpass,16,8
+1725,forZe,SKADE,Dust2,16,11
+1726,BLUEJAYS,BIG Academy,Dust2,16,10
+1727,BLUEJAYS,BIG Academy,Mirage,12,16
+1728,BLUEJAYS,BIG Academy,Vertigo,16,7
+1729,K23,Isurus,Inferno,19,22
+1730,K23,Isurus,Dust2,7,16
+1731,GamerLegion,SKADE,Nuke,7,16
+1732,GamerLegion,SKADE,Inferno,4,16
+1733,Party Astronauts,Mythic,Mirage,16,5
+1734,Party Astronauts,Mythic,Inferno,10,16
+1735,Party Astronauts,Mythic,Ancient,8,16
+1736,Sao Caetano,ARCTIC,Inferno,16,10
+1737,Sao Caetano,ARCTIC,Nuke,16,10
+1738,paiN,TeamOne,Inferno,16,10
+1739,paiN,TeamOne,Ancient,16,12
+1740,Brazen,ATK,Mirage,5,16
+1741,Brazen,ATK,Dust2,12,16
+1742,SWS,ARCTIC,Ancient,9,16
+1743,SWS,ARCTIC,Vertigo,14,16
+1744,Apeks Rebels,FURIA Academy,Vertigo,16,13
+1745,AFTERPARTY,Budapest Five,Inferno,9,16
+1746,AFTERPARTY,Budapest Five,Mirage,3,16
+1747,Sprout,MOUZ NXT,Vertigo,25,28
+1748,Sprout,MOUZ NXT,Mirage,6,16
+1749,Eternal Fire,SAW,Nuke,17,19
+1750,Eternal Fire,SAW,Dust2,16,8
+1751,Eternal Fire,SAW,Vertigo,16,14
+1752,Young Ninjas,BIG Academy,Mirage,10,16
+1753,EC Kyiv,777,Overpass,13,16
+1754,EC Kyiv,777,Dust2,16,10
+1755,EC Kyiv,777,Ancient,16,5
+1756,X,iNation,Ancient,19,17
+1757,X,iNation,Vertigo,9,16
+1758,X,iNation,Inferno,16,5
+1759,fnatic Rising,Spirit Academy,Nuke,16,7
+1760,ECSTATIC,Enterprise,Inferno,9,16
+1761,ECSTATIC,Enterprise,Overpass,16,6
+1762,ECSTATIC,Enterprise,Dust2,16,14
+1763,NKT,Rare Atom,Inferno,16,12
+1764,NKT,Rare Atom,Mirage,17,19
+1765,NKT,Rare Atom,Vertigo,7,16
+1766,OG Academy,Eternal Fire Academy,Dust2,16,7
+1767,PROSPECTS,Young Gods,Ancient,8,16
+1768,Apeks,Into the Breach,Nuke,16,9
+1769,Apeks,Into the Breach,Dust2,16,6
+1770,EC Brugge,SAW,Dust2,14,16
+1771,EC Brugge,SAW,Nuke,8,16
+1772,Eternal Fire,Lausanne SE,Default,1,0
+1773,Rare Atom,YK,Inferno,16,14
+1774,Rare Atom,YK,Ancient,16,13
+1775,K23,Entropiq Prague,Default,0,1
+1776,paiN,Brazen,Inferno,16,8
+1777,paiN,Brazen,Nuke,12,16
+1778,paiN,Brazen,Ancient,16,7
+1779,SWS,Sao Caetano,Inferno,10,16
+1780,SWS,Sao Caetano,Mirage,15,19
+1781,Party Astronauts,BHOP,Mirage,16,6
+1782,Party Astronauts,BHOP,Overpass,16,13
+1783,Boca Juniors,ARCTIC,Nuke,10,16
+1784,Boca Juniors,ARCTIC,Overpass,5,16
+1785,Gaimin Gladiators,ex-UYU,Dust2,16,6
+1786,Gaimin Gladiators,ex-UYU,Mirage,16,4
+1787,Sao Caetano,ARCTIC,Inferno,11,16
+1788,Sao Caetano,ARCTIC,Nuke,16,7
+1789,Sao Caetano,ARCTIC,Ancient,16,11
+1790,SWS,Boca Juniors,Dust2,11,16
+1791,SWS,Boca Juniors,Nuke,16,0
+1792,SWS,Boca Juniors,Inferno,16,8
+1793,Apeks,Hellslayers,Ancient,12,16
+1794,Apeks,Hellslayers,Mirage,9,16
+1795,ECSTATIC,MASONIC,Dust2,16,13
+1796,ECSTATIC,MASONIC,Inferno,16,11
+1797,SKADE,Budapest Five,Nuke,13,16
+1798,SKADE,Budapest Five,Overpass,16,2
+1799,SKADE,Budapest Five,Dust2,16,11
+1800,Sprout,Tricked,Overpass,11,16
+1801,Sprout,Tricked,Mirage,16,10
+1802,Sprout,Tricked,Ancient,16,12
+1803,Rare Atom,NKT,Inferno,13,16
+1804,Rare Atom,NKT,Nuke,14,16
+1805,Invictus,YK,Mirage,6,16
+1806,Invictus,YK,Vertigo,13,16
+1807,YK,NKT,Inferno,2,16
+1808,YK,NKT,Nuke,16,11
+1809,YK,NKT,Mirage,17,19
+1810,Rare Atom,Invictus,Mirage,22,20
+1811,Rare Atom,Invictus,Nuke,16,13
+1812,ARCTIC,UNO MILLE,Ancient,16,13
+1813,ARCTIC,UNO MILLE,Vertigo,16,9
+1814,Party Astronauts,GODSENT,Mirage,12,16
+1815,Party Astronauts,GODSENT,Ancient,11,16
+1816,Imperial,TeamOne,Nuke,10,16
+1817,Imperial,TeamOne,Inferno,14,16
+1818,UNO MILLE,B4,Overpass,22,20
+1819,TeamOne,Gaimin Gladiators,Nuke,19,16
+1820,Sharks,ARCTIC,Dust2,6,16
+1821,Northern Forces,Imperial,Overpass,14,16
+1822,Party Astronauts,ONET4P,Inferno,16,8
+1823,GODSENT,Davenport University,Overpass,16,3
+1824,Sharks,Meta BR,Mirage,16,10
+1825,B4,Leviatan,Inferno,16,7
+1826,Holkattes,UNO MILLE,Ancient,7,16
+1827,Stars Horizon,ARCTIC,Nuke,4,16
+1828,FaZe,Natus Vincere,Inferno,19,16
+1829,FaZe,Natus Vincere,Nuke,16,10
+1830,SKADE,BigD,Mirage,7,16
+1831,SKADE,BigD,Ancient,16,10
+1832,SKADE,BigD,Dust2,16,6
+1833,1WIN,0to100,Mirage,16,14
+1834,1WIN,0to100,Vertigo,16,7
+1835,Illuminar,Wisla Krakow,Dust2,6,16
+1836,Illuminar,Wisla Krakow,Mirage,16,13
+1837,Illuminar,Wisla Krakow,Ancient,16,6
+1838,Kappa Bar,Vikings,Dust2,11,16
+1839,Kappa Bar,Vikings,Overpass,16,3
+1840,Kappa Bar,Vikings,Nuke,10,16
+1841,LDLC,BigD,Inferno,12,16
+1842,CloudRunners,SKADE,Mirage,10,16
+1843,HAVU,0to100,Nuke,10,16
+1844,Team Smoke,Team Flash,Overpass,14,16
+1845,1WIN,Nemiga,Dust2,16,2
+1846,NKT,Invictus,Nuke,16,3
+1847,NKT,Invictus,Vertigo,14,16
+1848,NKT,Invictus,Inferno,16,9
+1849,Wisla Krakow,PACT,Inferno,6,16
+1850,Wisla Krakow,PACT,Overpass,16,5
+1851,Wisla Krakow,PACT,Nuke,16,12
+1852,SHAPE,Babos,Dust2,16,13
+1853,SHAPE,Babos,Mirage,5,16
+1854,SHAPE,Babos,Inferno,16,4
+1855,NKT,CatEvil,Inferno,16,12
+1856,Impression,Illuminar,Vertigo,18,22
+1857,Impression,Illuminar,Mirage,15,19
+1858,Born in Mongolia,Invictus,Nuke,9,16
+1859,ex-UYU,Unjustified,Vertigo,16,8
+1860,ex-UYU,Unjustified,Dust2,17,19
+1861,ex-UYU,Unjustified,Nuke,14,16
+1862,Stone,Leviatan,Dust2,14,16
+1863,Holkattes,Daotsu,Ancient,16,13
+1864,WAP,Stars Horizon,Ancient,8,16
+1865,Rehl,Sharks,Vertigo,8,16
+1866,B4,The Union,Overpass,16,9
+1867,Players,ARCTIC,Nuke,10,16
+1868,Meta BR,Los Grandes,Inferno,16,11
+1869,WINDINGO,UNO MILLE,Ancient,2,16
+1870,EC Kyiv,SKADE,Ancient,17,19
+1871,Finest,CloudRunners,Dust2,17,19
+1872,0to100,Into the Breach,Mirage,16,12
+1873,GTZ Bulls,Nemiga,Inferno,9,16
+1874,BLUEJAYS,BigD,Ancient,8,16
+1875,1WIN,Astralis Talent,Overpass,16,7
+1876,HAVU,Looking For Org,Ancient,16,4
+1877,LDLC,Lilmix,Nuke,16,10
+1878,ENCE,Natus Vincere,Nuke,7,16
+1879,ENCE,Natus Vincere,Dust2,12,16
+1880,FaZe,Spirit,Mirage,16,13
+1881,FaZe,Spirit,Dust2,25,23
+1882,Born in Mongolia,QUAZAR,Mirage,16,10
+1883,Clutch,CatEvil,Nuke,17,19
+1884,NKT,Born in the East,Vertigo,16,10
+1885,Lynn Vision,Invictus,Nuke,11,16
+1886,ATK,Gaimin Gladiators,Inferno,9,16
+1887,ATK,Gaimin Gladiators,Dust2,16,14
+1888,ATK,Gaimin Gladiators,Mirage,16,14
+1889,SWS,UNO MILLE,Ancient,12,16
+1890,SWS,UNO MILLE,Inferno,19,17
+1891,SWS,UNO MILLE,Mirage,16,11
+1892,Gaimin Gladiators,TeamOne,Overpass,16,10
+1893,ONET4P,ATK,Dust2,7,16
+1894,UNO MILLE,B4,Mirage,16,12
+1895,Carpe Diem,Gaimin Gladiators,Mirage,17,19
+1896,SWS,Stars Horizon,Vertigo,16,10
+1897,TeamOne,Party Astronauts,Mirage,16,11
+1898,Strife,ATK,Dust2,5,16
+1899,B4,Stone,Dust2,16,14
+1900,Stars Horizon,Redragon,Mirage,16,12
+1901,ONET4P,Take Flyte,Default,1,0
+1902,UNO MILLE,Holkattes,Ancient,16,14
+1903,SWS,Meta BR,Inferno,16,9
+1904,Natus Vincere,Heroic,Inferno,10,16
+1905,Natus Vincere,Heroic,Ancient,16,14
+1906,Natus Vincere,Heroic,Nuke,16,8
+1907,Sprout,Atlantic,Inferno,16,2
+1908,Sprout,Atlantic,Overpass,10,16
+1909,Sprout,Atlantic,Dust2,16,9
+1910,K23,CloudRunners,Inferno,16,8
+1911,K23,CloudRunners,Mirage,16,10
+1912,PALOMA,CloudRunners,Nuke,13,16
+1913,1shot,Atlantic,Inferno,11,16
+1914,Sprout,AGO,Vertigo,16,7
+1915,K23,MOONBOYS,Inferno,16,4
+1916,ENCE,Copenhagen Flames,Vertigo,16,10
+1917,ENCE,Copenhagen Flames,Nuke,16,12
+1918,Lynn Vision,YK,Nuke,16,2
+1919,Lynn Vision,YK,Inferno,8,16
+1920,Lynn Vision,YK,Overpass,5,16
+1921,Lynn Vision,CatEvil,Inferno,16,11
+1922,NSN,YK,Ancient,8,16
+1923,Tempest,Gaimin Gladiators,Inferno,13,16
+1924,Stone,TotalePro,Inferno,16,13
+1925,Detonate,Strife,Mirage,13,16
+1926,Holkattes,Leviatan,Inferno,16,12
+1927,TeamOne,Unjustified,Mirage,16,5
+1928,Revel,Party Astronauts,Overpass,2,16
+1929,sinister,ATK,Inferno,10,16
+1930,Take Flyte,Northern Forces,Mirage,16,7
+1931,Redragon,XIS,Dust2,16,8
+1932,X13,Carpe Diem,Overpass,0,16
+1933,Furious,Stars Horizon,Ancient,5,16
+1934,GODSENT,ONET4P,Nuke,14,16
+1935,B4,9z Academy,Inferno,16,3
+1936,Hawks,SWS,Inferno,5,16
+1937,Los Grandes,Meta BR,Inferno,7,16
+1938,loloNaMente,UNO MILLE,Nuke,5,16
+1939,AGO,EC Kyiv,Mirage,19,17
+1940,Atlantic,Case,Inferno,16,12
+1941,Isurus,MOONBOYS,Inferno,14,16
+1942,CloudRunners,HOTU,Inferno,16,11
+1943,1shot,MASONIC,Nuke,19,16
+1944,Los Reyes,PALOMA,Ancient,12,16
+1945,Sprout,Anonymo,Ancient,16,11
+1946,K23,INDE IRAE,Mirage,16,10
+1947,Spirit,FURIA,Vertigo,16,12
+1948,Spirit,FURIA,Ancient,16,8
+1949,NIP,FaZe,Nuke,10,16
+1950,NIP,FaZe,Overpass,16,13
+1951,NIP,FaZe,Inferno,8,16
+1952,CatEvil,NEXGA,Dust2,19,17
+1953,NKT,Lynn Vision,Nuke,12,16
+1954,Wings Up,NSN,Ancient,13,16
+1955,The Shine,YK,Vertigo,8,16
+1956,GODSENT,ATK,Mirage,16,12
+1957,GODSENT,ATK,Inferno,14,16
+1958,GODSENT,ATK,Ancient,16,10
+1959,Gaimin Gladiators,paiN,Inferno,16,13
+1960,Gaimin Gladiators,paiN,Dust2,16,10
+1961,AGO,Falcons,Nuke,10,16
+1962,AGO,Falcons,Vertigo,9,16
+1963,ATK,paiN,Inferno,3,16
+1964,ATK,paiN,Vertigo,12,16
+1965,SAW,AGO,Nuke,16,11
+1966,SAW,AGO,Ancient,10,16
+1967,SAW,AGO,Vertigo,13,16
+1968,Copenhagen Flames,Imperial,Inferno,16,2
+1969,Copenhagen Flames,Imperial,Vertigo,22,18
+1970,Copenhagen Flames,Falcons,Default,0,1
+1971,G2,FURIA,Vertigo,12,16
+1972,G2,FURIA,Inferno,16,14
+1973,G2,FURIA,Ancient,11,16
+1974,Heroic,Vitality,Mirage,16,7
+1975,Heroic,Vitality,Overpass,14,16
+1976,Heroic,Vitality,Inferno,16,12
+1977,Cloud9,Imperial,Overpass,23,25
+1978,Cloud9,Imperial,Vertigo,16,9
+1979,Cloud9,Imperial,Mirage,3,16
+1980,ENCE,Heroic,Overpass,14,16
+1981,ENCE,Heroic,Mirage,16,12
+1982,ENCE,Heroic,Nuke,16,6
+1983,G2,Outsiders,Inferno,16,10
+1984,G2,Outsiders,Vertigo,10,16
+1985,G2,Outsiders,Dust2,16,11
+1986,NIP,FURIA,Nuke,16,2
+1987,NIP,FURIA,Inferno,16,10
+1988,BIG,Vitality,Mirage,9,16
+1989,BIG,Vitality,Vertigo,22,19
+1990,BIG,Vitality,Nuke,17,19
+1991,Copenhagen Flames,FaZe,Inferno,16,13
+1992,Copenhagen Flames,FaZe,Ancient,13,16
+1993,Copenhagen Flames,FaZe,Nuke,6,16
+1994,ARCTIC,B4,Ancient,9,16
+1995,ARCTIC,B4,Dust2,9,16
+1996,Cyberstorm,bosses,Inferno,11,16
+1997,Cyberstorm,bosses,Overpass,10,16
+1998,Natus Vincere,NIP,Inferno,16,6
+1999,Natus Vincere,NIP,Mirage,14,16
+2000,Natus Vincere,NIP,Ancient,16,4
+2001,bosses,CNCS LastHope,Nuke,16,2
+2002,bosses,CNCS LastHope,Mirage,16,11
+2003,Bad News Eagles,Imperial,Inferno,13,16
+2004,Bad News Eagles,Imperial,Mirage,14,16
+2005,Babos,Irie Legacy,Mirage,16,19
+2006,Babos,Irie Legacy,Inferno,16,13
+2007,Babos,Irie Legacy,Vertigo,16,14
+2008,ISO,Lemondogs,Inferno,5,16
+2009,ISO,Lemondogs,Ancient,7,16
+2010,Cyberstorm,Vicious Kitties,Overpass,16,11
+2011,Cyberstorm,Vicious Kitties,Ancient,16,12
+2012,Spirit,Copenhagen Flames,Vertigo,10,16
+2013,Spirit,Copenhagen Flames,Mirage,16,8
+2014,Spirit,Copenhagen Flames,Ancient,16,6
+2015,Vitality,Liquid,Mirage,16,7
+2016,Vitality,Liquid,Dust2,16,11
+2017,Cloud9,FaZe,Nuke,8,16
+2018,BIG,FURIA,Vertigo,10,16
+2019,Heroic,G2,Vertigo,19,17
+2020,ENCE,Outsiders,Mirage,16,8
+2021,Lausanne SE,SHAPE,Default,0,1
+2022,Redragon,B4,Vertigo,13,16
+2023,Redragon,B4,Overpass,13,16
+2024,Cloud9,NIP,Inferno,14,16
+2025,G2,Imperial,Mirage,16,12
